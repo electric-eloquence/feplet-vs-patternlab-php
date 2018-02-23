@@ -1,0 +1,24 @@
+{
+  "body_class": "not-front page-node node-type-title",
+  "h1_logo_alt": "The Big Lorem Ipsum",
+  "page_title?": true,
+  "page_title": "The Big Lorem Ipsum",
+  "title_name": "The Big Lorem Ipsum",
+  "02_accordions_format_editions_movie?": true,
+  "02_accordions_format_features?": true,
+  "title_top_iconic": {
+    "panels_pane__aside_unique_class": "panels-section-row-inside-first aurora-layout-1"
+  },
+  "title_media_full_width": {
+    "panels_pane__aside_unique_class": "aurora-layout-main-row"
+  },
+  "title_info_column_left": {
+    "panels_pane__aside_unique_class": "aurora-layout-2"
+  },
+  "title_info_column_right": {
+    "panels_pane__aside_unique_class": "aurora-layout-3"
+  },
+  "title_bottom_full_width": {
+    "panels_pane__aside_unique_class": "panels-section-row-inside-first aurora-layout-4"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "body_class": "page-social",
+  "page_title?": true,
+  "page_title": "Social",
+  "pane_title?": true,
+  "pane_block_menu_social": {
+    "pane_classes": "panel-pane pane-block pane-menu-menu-social",
+    "pane_title": "Visit Us:"
+  },
+  "pane_facebook": {
+    "pane_classes": "panel-pane pane-facebook",
+    "pane_title?": true,
+    "pane_title": "Facebook"
+  },
+  "pane_twitter": {
+    "pane_classes": "panel-pane pane-twitter",
+    "pane_title?": true,
+    "pane_title": "Twitter"
+  },
+  "pane_instagram": {
+    "pane_classes": "panel-pane pane-instagram",
+    "pane_title?": true,
+    "pane_title": "Instagram"
+  },
+  "pane_youtube": {
+    "pane_classes": "panel-pane pane-youtube",
+    "pane_title?": true,
+    "pane_title": "YouTube"
+  },
+  "pane_google_plus": {
+    "pane_classes": "panel-pane pane-gplus",
+    "pane_title?": true,
+    "pane_title": "Google+"
+  },
+  "pane_tumblr": {
+    "pane_classes": "panel-pane pane-tumblr",
+    "pane_title?": true,
+    "pane_title": "Tumblr"
+  }
+}

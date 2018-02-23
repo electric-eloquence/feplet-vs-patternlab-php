@@ -1,0 +1,23 @@
+      {{{ feed_icons }}}
+    </article><!-- article#content -->
+    {{# sidebar_first? }}
+      <aside id="sidebar-first" role="complementary" class="column sidebar">
+        {{{ sidebar_first }}}
+      </aside><!-- #sidebar-first -->
+    {{/ sidebar_first? }}
+    {{# sidebar_second? }}
+      <aside id="sidebar-second" role="complementary" class="column sidebar">
+        {{{ sidebar_second }}}
+      </aside><!-- #sidebar-second -->
+    {{/ sidebar_second? }}
+  </main><!-- #main -->
+  <!-- #content-suffix -->
+  {{# main_suffix? }}
+    {{{ main_suffix }}}
+  {{/ main_suffix? }}
+  <footer id="footer" role="contentinfo">
+    <div class="region region-footer-wrapper">
+      {{> 02-organisms/00-global/_01-footer~content.mustache }}
+    </div>
+  </footer>
+</div><!-- #page -->

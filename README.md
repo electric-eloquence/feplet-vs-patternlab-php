@@ -1,54 +1,56 @@
-# Template Engine Comparison
+# Feplet (Node.js) vs. Pattern Lab (PHP)
 
-This currently only compares 
-<a href="https://github.com/electric-eloquence/feplet#readme" target="_blank">Feplet</a> 
-to Handlebars. More template engines can be considered, so please 
-<a href="https://github.com/electric-eloquence/template-engine-comparison/issues" target="_blank">make suggestions</a>. 
-They need to meet the following criteria at a minimum:
-
-* Render tags that are nested within tags flagging true boolean conditions
-* Render tags that are nested within tags that loop through arrays of data
-* Compile partials with data passed to them by parameters from the including tag
-* Be written in JavaScript
+On a high level, this is a Node.js vs. PHP comparison. However, this sort of 
+comparison never compares apples to apples. Going a bit lower, we can compare 
+two projects which aim to do nearly the same thing. Given that what goes on 
+under the hood is abstracted away from users, we can concern ourselves with only 
+the most basic of benchmarks: processing speed and memory consumption.
 
 ### Some Background
 
-Feplet aims to extend Mustache, but without changing the existing syntax. 
-In other words, Mustache code can be dropped into Feplet without modification. 
-The extending functionality resembles other, more powerful engines, but as of 
-this writing, no suggestion has been made for a JavaScript template engine that 
-can accept Mustache code without modification, and extend it with the ability to 
-submit data parameters to partials.
+Feplet is the template engine which powers Fepper, a frontend prototyper. Fepper 
+implements the Pattern Lab UI. The Pattern Lab UI cannot receive enough acolades 
+and superlatives for its utility at the task of organizing reusable markup 
+patterns, and making them accessbile to developers and designers.
 
-### Why Not Abandon Mustache?
+However, those wishing to stay in the Pattern Lab ecosystem will find that the 
+runtime environment is best implemented with the PHP version of Pattern Lab. A 
+Node.js version of Pattern Lab exists, but its functionality is too limited for 
+power usage. (More on that later, if you're interested.)
 
-Mustache brands itself as being "logic-less," but it in fact more closely 
-resembles pure formal logic. It tests the most basic conditions: Is a value 
-truthy or falsy? Is a value a set containing members? When true conditions have 
-been drilled down to a printable value, print that value.
+Given that frontend developers and coding designers are certain to work in 
+JavaScript (and probably Node.js), it is reasonable to assume that they'd want 
+to stay within that ecosystem, unless there's a mandate or a drive of curiosity 
+to venture beyond it. We're only concerned with what could impart the mandate:
 
-Of course, there's more to Mustache than just that, but the bells and whistles 
-do not significantly weigh or slow Mustache down.
+* The version for Node.js isn't up to the task
+* The version for Node.js is too slow
+* The version for Node.js consumes too much memory 
 
-If a simpler set of rules (and a syntax to implement those rules) has been 
-invented, 
-<a href="https://github.com/electric-eloquence/template-engine-comparison/issues" target="_blank"> 
-please comment on what that is</a>. 
-In the meantime, Feplet will not abandon Mustache.
+Feplet and Fepper are independent of Pattern Lab, organizationally and socially. 
+Feplet and Fepper implement the inventions of others, and hopefully add enough 
+original functionality to be considered something more than just copies of the 
+originals.
 
 ### Versions
 
-The latest as of this writing, February, 2018:
-
+* Fepper (main project): 0.4.2
+* Fepper-NPM: 0.25.5
 * Feplet: 0.1.1
-* Handlebars: 4.0.11
+* Pattern Lab: 1.0.0
+* Pattern Lab: 1.1.0
+* Pattern Lab: 2.0.0
+* Node.js: 8.9.4
+* PHP: 5.6.33
+* PHP: 7.2.2 
 
-### Bundle Sizes
+Feplet and Fepper-NPM are dependencies of Fepper. They are parts of a whole.
 
-The minified all-in-one scripts for browser consumption:
+The three Pattern Lab versions are independent entities and will be tested 
+separately as such.
 
-* Feplet: 22K
-* Handlebars: 74K
+PHP will also be tested separately for versions 5.6.33 and 7.2.2, for each 
+version of Pattern Lab.
 
 ### Tests
 
@@ -72,7 +74,15 @@ that keeps execution finite.
 A fourth test consists of just downward inclusions, with no conditional logic. 
 There are twenty patterns per pattern type in this test.
 
-### Hardware
+
+### Bundle Sizes
+
+The minified all-in-one scripts for browser consumption:
+
+* Feplet: 22K
+* Handlebars: 74K
+
+### System
 
 * MacBook Pro (Retina, 15-inch, Mid 2015)
 * Intel Core i7-4980HQ @ 2.80GHz

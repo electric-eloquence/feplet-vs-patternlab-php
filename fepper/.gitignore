@@ -1,0 +1,12 @@
+!/public/package-lock.json
+!/public/package.json
+!/source/_static/node_modules/
+.*.swp
+.DS_Store
+.publish/
+/conf.yml
+/install.log
+/npm-debug.log
+/public/*
+ignore/
+node_modules/

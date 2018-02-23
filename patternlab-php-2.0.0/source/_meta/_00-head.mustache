@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html class="{{ htmlClass }} identity-ui-hidden">
+  <head>
+    <title>{{ page_title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="tp:EnableExternalController" content="true" />
+
+    {{! Put drupal.css first }}
+    <link rel="stylesheet" href="../../css/nosync/drupal.css?{{ cacheBuster }}" media="all" />
+    {{! webfonts.css calls locally stored webfonts for offline development. They
+    will be rendered when Google Fonts are inaccessible. DO NOT INCLUDE LOCAL
+    WEBFONTS ON THE PROD WEBAPP! Google Fonts allow for a performance win in
+    that the browser might have cached them previously from a different site.
+    These local webfonts need to be called before style.css because they act
+    strangely in Firefox in Windows 7. Since they get overruled by Google Fonts
+    called in style.css, when working online, fonts will display correctly. }}
+    <link rel="stylesheet" href="../../fonts/nosync/webfonts.css?" media="all" />
+    {{! Put library and module-level css next. }}
+    <link rel="stylesheet" href="../../css/nosync/art_left.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/art_right.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/colorbox.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/field-collection-fieldset.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/field-collection-fieldset.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/field_collection.theme.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/full_art.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/layout_box.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/menu_icons.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/owl.carousel.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/owl.theme.default.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/chosen.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/chosen-drupal.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/quicktabs.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/search.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/system.base.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/system.menus.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/threecol_hero.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/twocol_bricks_threecol.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/nosync/webform.css?{{ cacheBuster }}" media="all" />
+    {{! Put theme-level css next. }}
+    <link rel="stylesheet" href="../../css/conditional-header.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/social.css?{{ cacheBuster }}" media="all" />
+    {{! Put style.css last. }}
+    <link rel="stylesheet" href="../../css/style.css?{{ cacheBuster }}" media="all" />
+
+    <!--[if lt IE 10]>
+      <link rel="stylesheet" href="../../css/ie.css?{{ cacheBuster }}" media="all" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script type="text/javascript">
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+        document.createElement('figure');
+        document.createElement('header');
+        document.createElement('hgroup');
+        document.createElement('mark');
+        document.createElement('nav');
+        document.createElement('picture');
+        document.createElement('section');
+      </script>
+    <![endif]-->
+
+    {{! Redirect away from default Pattern Lab landing page (which loads every
+    pattern and crushes browsers.) }}
+    <script type="text/javascript">
+      if (window.location.pathname.indexOf('/styleguide/html/styleguide.html') !== -1 && window.location.search === '') {
+        window.location.href = '../../patterns/{{ homepage }}/{{ homepage }}.html';
+      }
+    </script>
+
+    {{! Put jQuery, data-saver, and jQuery.once at the beginning, since many
+    JavaScripts depend on them. }}
+    <script type="text/javascript" src="../../js/jquery-1.10.2.min.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/data-saver.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/jquery.once.js?{{ cacheBuster }}"></script>
+    {{! Put Drupal and Drupal-prefixed JavaScripts near the begnning as well. }}
+    <script type="text/javascript" src="../../js/drupal.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/drupal.collapse.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/drupal.form.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/drupal.settings.js?{{ cacheBuster }}"></script>
+    {{! jQuery UI JavaScripts needs to be in this order. }}
+    <script type="text/javascript" src="../../js/jquery.ui.core.min.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/jquery.ui.widget.min.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/jquery.ui.accordion.min.js?{{ cacheBuster }}"></script>
+
+    <script type="text/javascript" src="../../js/chosen.jquery.min.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/jquery.colorbox-min.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/bower/media.match.min.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/modernizr.cssfilters.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/owl.carousel.min.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/picturefill.min.js?{{ cacheBuster }}" async></script>
+    <script type="text/javascript" src="../../js/tpPdkController.js?{{ cacheBuster }}"></script>
+    <script type="text/javascript" src="../../js/views-accordion.js?{{ cacheBuster }}"></script>
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    {{{ patternLabHead }}}
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="{{ body_class }}" style="-moz-box-sizing: content-box;">
+{{! Giving the body a -moz-box-sizing property so JavaScript can detect a
+Firefox browser by feature detection instead of by user-agent. This is primarily
+used in the dynamic lead slider to determine whether a css image filter can be
+used or not. Since standard css image filters will be supported by Firefox 35
+and up, it doesn't really matter if future versions of Firefox stop supporting
+-moz-box-sizing. }}

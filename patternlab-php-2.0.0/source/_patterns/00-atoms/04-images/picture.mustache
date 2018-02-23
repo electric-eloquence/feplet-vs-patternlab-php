@@ -1,0 +1,8 @@
+<picture class="{{picture_class}}" data-item-id="{{format_image_id}}">
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="{{srcset_lg}}{{#img_text_lg}}&text={{img_text_lg}}{{/img_text_lg}}" media="(min-width: {{bp_lg}}px)">
+  <source srcset="{{srcset_md}}{{#img_text_md}}&text={{img_text_md}}{{/img_text_md}}" media="(min-width: {{bp_md}}px)">
+  <source srcset="{{srcset_sm}}{{#img_text_sm}}&text={{img_text_sm}}{{/img_text_sm}}" media="(min-width: {{bp_sm}}px)">
+  <!--[if IE 9]></video><![endif]-->
+  <img srcset="{{img_fallback}}">
+</picture>

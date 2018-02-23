@@ -1,0 +1,51 @@
+{
+  "version": "0.4.2",
+  "description": "Fepper: a Front End Prototyper tool for rapid prototyping of web sites",
+  "scripts": {
+    "install-base": "node run/install-base.js",
+    "install-windows": "node run/install-windows.js",
+    "postinstall": "node run/install.js",
+    "test": "npm run test-eslint && npm run test-mocha",
+    "test-eslint": "./node_modules/.bin/eslint run && ./node_modules/.bin/eslint test",
+    "test-mocha": "./node_modules/.bin/mocha test/install-tests.js",
+    "update": "node run/update.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electric-eloquence/fepper.git"
+  },
+  "keywords": [
+    "atomic",
+    "component",
+    "design",
+    "end",
+    "fepper",
+    "front",
+    "front-end",
+    "frontend",
+    "lab",
+    "library",
+    "pattern",
+    "prototype",
+    "prototyper",
+    "prototyping",
+    "template"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/electric-eloquence/fepper/issues"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "devDependencies": {
+    "fepper": "^0.25.5",
+    "fs-extra": "^0.22.1",
+    "gulp": "3.9.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-refresh": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.2"
+  }
+}

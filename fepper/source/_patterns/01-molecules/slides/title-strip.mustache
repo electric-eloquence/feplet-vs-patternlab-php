@@ -1,0 +1,21 @@
+<div class="titles-strip--content">
+  <div class="content">
+    <a href="#">
+      {{> atoms-picture}}
+      {{#title_strip_format}}
+        <div class="item-list">
+          <ul>
+            {{#title_formats}}
+              <li {{#format_last}}class="last"{{/format_last}}>{{title_format}}</li>
+            {{/title_formats}}
+          </ul>
+        </div>
+      {{/title_strip_format}}
+    </a>
+    {{#item_title}}
+    <div class="title-strip--title">
+      <h3>{{#item_title_link}}<a href="#">{{/item_title_link}}{{title_label}}{{#item_title_link}}</a>{{/item_title_link}}</h3>
+    </div>
+    {{/item_title}}
+  </div>
+</div>

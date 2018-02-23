@@ -1,0 +1,81 @@
+{{> 03-templates/system/__page-prefix.mustache }}
+
+  {{# 03_system_page? }}
+    {{{ template_content }}}
+  {{/ 03_system_page? }}
+
+  {{# 04_contact_us? }}
+    {{> 03-templates/system/region(04_contact_us\?: true) }}
+  {{/ 04_contact_us? }}
+
+  {{# 04_contact_us_submit? }}
+    {{> 03-templates/system/region(04_contact_us_submit\?: true) }}
+  {{/ 04_contact_us_submit? }}  
+
+  {{# 04_education? }}
+    {{> 03-templates/system/region(04_education\?: true) }}
+  {{/ 04_education? }}
+
+  {{# 04_error_404? }}
+    {{> 03-templates/system/region(04_error_404\?: true) }}
+  {{/ 04_error_404? }}
+
+  {{# 04_faq? }}
+    {{> 03-templates/system/region(04_faq\?: true) }}
+  {{/ 04_faq? }}
+
+  {{# 04_homepage? }}
+    {{> 03-templates/system/region(04_homepage\?: true) }}
+  {{/ 04_homepage? }}
+
+  {{# 04_news_signup_success? }}
+    {{> 03-templates/system/region(04_news_signup_success\?: true) }}
+  {{/ 04_news_signup_success? }}
+
+  {{# 04_offers? }}
+    {{# 04_offers_threecol_hero? }}
+      {{> 03-templates/system/region(04_offers_threecol_hero\?: true) }}
+    {{/ 04_offers_threecol_hero? }}
+    {{# 04_offers_art_left? }}
+      {{> 03-templates/system/region(04_offers_art_left\?: true) }}
+    {{/ 04_offers_art_left? }}
+    {{# 04_offers_art_right? }}
+      {{> 03-templates/system/region(04_offers_art_right\?: true) }}
+    {{/ 04_offers_art_right? }}
+    {{# 04_offers_full_art? }}
+      {{> 03-templates/system/region(04_offers_full_art\?: true) }}
+    {{/ 04_offers_full_art? }}
+    {{# 04_offers_gridspan? }}
+      {{> 03-templates/system/region(04_offers_gridspan\?: true) }}
+    {{/ 04_offers_gridspan? }}
+  {{/ 04_offers? }}  
+
+  {{# 04_newsletter? }}
+    {{> 03-templates/system/region(04_newsletter\?: true) }}
+  {{/ 04_newsletter? }}
+
+  {{# 04_search_results? }}
+    {{> 03-templates/system/region(04_search_results\?: true) }}
+  {{/ 04_search_results? }}
+
+  {{# 04_social_page? }}
+    {{> 03-templates/system/region(04_social_page\?: true) }}
+  {{/ 04_social_page? }}
+
+  {{# 04_static_page? }}
+    {{> 03-templates/system/region(04_static_page\?: true) }}
+  {{/ 04_static_page? }}
+
+  {{# 04_title_detail? }}
+    {{> 03-templates/system/region(04_title_detail\?: true) }}
+  {{/ 04_title_detail? }}
+
+  {{# 04_titles_listing_landing? }}
+    {{> 03-templates/system/region(04_titles_listing_landing\?: true) }}
+  {{/ 04_titles_listing_landing? }}
+
+  {{# 04_video_page? }}
+    {{> 03-templates/system/region(04_video_page\?: true) }}
+  {{/ 04_video_page? }}
+
+{{> 03-templates/system/__page-suffix.mustache }}

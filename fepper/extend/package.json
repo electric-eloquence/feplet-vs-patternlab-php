@@ -1,0 +1,6 @@
+{
+  "description": "Fepper extensions",
+  "devDependencies": {
+    "fp-stylus": "*"
+  }
+}

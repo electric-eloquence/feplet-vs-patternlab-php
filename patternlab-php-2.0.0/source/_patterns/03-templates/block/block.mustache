@@ -1,0 +1,118 @@
+{{> 03-templates/block/__block-prefix.mustache }}
+
+  {{# 03_block_block? }}
+    {{{ template_content }}}
+  {{/ 03_block_block? }}
+
+  {{# 01_components_user_menu? }}
+    {{> 01-molecules/components/user-menu }}
+  {{/ 01_components_user_menu? }}
+
+  {{# 04_contact_us? }}
+    {{> 02-organisms/sections/contact-form }}
+  {{/ 04_contact_us? }}
+
+  {{# 04_contact_us_submit? }}
+    {{> 02-organisms/sections/contact-form-submit }}
+  {{/ 04_contact_us_submit? }}  
+
+  {{# 01_forms_search? }}
+    {{> 01-molecules/search-form/00-search }}
+  {{/ 01_forms_search? }}
+
+  {{# 01_navigation_nav_toggle? }}
+    {{> 01-molecules/navigation/nav-toggle }}
+  {{/ 01_navigation_nav_toggle? }}
+
+  {{# 02_global_header_faq_menu? }}
+    {{> 01-molecules/faq/faq-menu }}
+  {{/ 02_global_header_faq_menu? }}  
+
+  {{# 02_global_main_menu? }}
+    {{> 02-organisms/00-global/_00-header~main-menu(header_nav_list\?: true) }}
+  {{/ 02_global_main_menu? }}
+
+  {{# 02_sliders_titles_strip_available_now? }}
+    {{# titles_strip }}
+      {{# titles_strip_items }}
+        {{> 03-templates/node/_title-available-now }}
+      {{/ titles_strip_items }}
+    {{/ titles_strip }}
+  {{/ 02_sliders_titles_strip_available_now? }}
+
+  {{# 02_sliders_titles_strip_favorites? }}
+    {{> 03-templates/_nosync/views/_views-view~titles-strip }}
+  {{/ 02_sliders_titles_strip_favorites? }}
+
+  {{# 04_education? }}
+    {{> 02-organisms/education/education }}
+  {{/ 04_education? }}  
+
+  {{# 04_error_404? }}
+    {{> 03-templates/panes/panels-pane(04_error_404\?: true) }}
+  {{/ 04_error_404? }}
+
+  {{# 04_faq? }}
+    {{> 02-organisms/faq/faq }}
+  {{/ 04_faq? }}  
+
+  {{# 04_homepage? }}
+    {{> 03-templates/panes/panels-pane(04_homepage\?: true) }}
+  {{/ 04_homepage? }}
+
+  {{# 04_news_signup_success? }}
+    {{> 01-molecules/components/news-signup-success }}
+  {{/ 04_news_signup_success? }}
+
+  {{# 04_newsletter? }}
+    {{> 02-organisms/sections/newsletter-form }}
+  {{/ 04_newsletter? }}
+
+  {{# 04_offers? }}
+    {{# 04_offers_threecol_hero? }}
+      {{> 03-templates/panes/_panels-threecol-hero(04_offers_threecol_hero\?: true) }}
+    {{/ 04_offers_threecol_hero? }}
+    {{# 04_offers_art_left? }}
+      {{> 03-templates/panes/_panels-art-left }}
+    {{/ 04_offers_art_left? }}
+    {{# 04_offers_art_right? }}
+      {{> 03-templates/panes/_panels-art-right }}
+    {{/ 04_offers_art_right? }}
+    {{# 04_offers_full_art? }}
+      {{> 03-templates/panes/_panels-full-art }}
+    {{/ 04_offers_full_art? }}
+    {{# 04_offers_gridspan? }}
+      {{> 03-templates/panes/_panels-threecol-hero(04_offers_gridspan\?: true) }}
+    {{/ 04_offers_gridspan? }}
+  {{/ 04_offers? }}
+
+  {{# 04_search_results? }}
+    {{# 02_listing_items_search_results_view }}
+      {{> 03-templates/views/_views-view--search-results--page(search_results\?: true) }}
+    {{/ 02_listing_items_search_results_view }}
+  {{/ 04_search_results? }}
+
+  {{# 04_social_page? }}
+    {{> 03-templates/panes/_panels-twocol-bricks-threecol }}
+  {{/ 04_social_page? }}
+
+  {{# 04_static_page? }}
+    {{> 01-molecules/components/static-content }}
+  {{/ 04_static_page? }}
+
+  {{# 04_title_detail? }}
+    {{^ 04_title_detail_no_poster? }}
+      {{> 01-molecules/images/dark-blur }}
+    {{/ 04_title_detail_no_poster? }}
+    {{> 03-templates/panes/panels-pane(04_title_detail\?: true) }}
+  {{/ 04_title_detail? }}
+
+  {{# 04_titles_listing_landing? }}
+    {{> 03-templates/panes/panels-pane(04_titles_listing_landing\?: true) }}
+  {{/ 04_titles_listing_landing? }}
+
+  {{# 04_video_page? }}
+    {{> 03-templates/panes/panels-pane(04_video_page\?: true) }}
+  {{/ 04_video_page? }}
+
+{{> 03-templates/block/__block-suffix.mustache }}

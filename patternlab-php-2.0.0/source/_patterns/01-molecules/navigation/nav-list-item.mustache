@@ -1,0 +1,6 @@
+<li class="leaf {{ classes }}">
+  <a href="#">{{ nav_list_item }}</a>
+  {{# has_submenu? }}
+    {{> 02-organisms/00-global/_00-header~main-menu(header_discover_submenu\?: true ) }}
+  {{/ has_submenu? }}
+</li>

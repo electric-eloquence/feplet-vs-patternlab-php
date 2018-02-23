@@ -1,0 +1,22 @@
+{{# has_subtaxonomy? }}
+  <h3 class="views-accordion-page-header">About UltraViolet™</h3>
+  {{# faq_view_rows }}
+    {{> 01-molecules/faq/faq-view-row }}
+  {{/ faq_view_rows }}
+
+  <h3 class="views-accordion-page-header">Lorem Ipsum UltraViolet™</h3>
+  {{# faq_view_rows }}
+    {{> 01-molecules/faq/faq-view-row }}
+  {{/ faq_view_rows }}
+
+  <h3 class="views-accordion-page-header">Lorem Ipsum UltraViolet™</h3>
+  {{# faq_view_rows }}
+    {{> 01-molecules/faq/faq-view-row }}
+  {{/ faq_view_rows }}
+{{/ has_subtaxonomy? }}
+
+{{^ has_subtaxonomy? }}
+  {{# faq_view_rows }}
+    {{> 01-molecules/faq/faq-view-row }}
+  {{/ faq_view_rows }}
+{{/ has_subtaxonomy? }}

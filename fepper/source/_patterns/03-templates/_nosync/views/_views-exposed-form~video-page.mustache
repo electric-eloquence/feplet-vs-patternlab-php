@@ -1,0 +1,33 @@
+<form class="ctools-auto-submit-full-form ctools-auto-submit-processed jquery-once-3-processed" action="/" method="get" id="views-exposed-form-videos-block-2" accept-charset="UTF-8">  
+  <div>
+    <div class="views-exposed-form">
+      <div class="views-exposed-widgets clearfix">
+        <div id="filters-toggle">Filters<span class="icon-arrow-down"></span></div>
+        <div id="edit-field-type-value-wrapper" class="views-exposed-widget views-widget-filter-field_type_value">
+        <label for="edit-field-type-value">Type<span class="icon-arrow-down"></span></label>
+          <div class="views-widget">
+            {{> molecules-field-type-value}}
+          </div>
+        </div>
+        <div id="edit-field-genre-tid-wrapper" class="views-exposed-widget views-widget-filter-field_genre_tid">
+          <label for="edit-field-genre-tid">Genre<span class="icon-arrow-down"></span></label>
+          <div class="views-widget">
+            {{> molecules-field-genre-tid}}
+          </div>
+        </div>
+        <div id="edit-sort-bef-combine-wrapper" class="views-exposed-widget views-widget-sort-sort_bef_combine">
+          {{> molecules-sort-bef-combine}}
+        </div>
+        <div id="edit-combine-wrapper" class="views-exposed-widget views-widget-filter-combine">
+          <label for="edit-combine">Search</label>
+          <div class="views-widget">
+            {{> molecules-search-combine}}
+          </div>
+        </div>
+        <div class="views-exposed-widget views-submit-button">
+          {{> molecules-submit-button}}
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
