@@ -1,0 +1,8 @@
+{
+  "has_user_menu?": true,
+  "logged_in?": true,
+  "02_global_header": {
+    "region_classes": "region region-header"
+  },
+  "easyxdm_scripts": "<script type=\"text/javascript\" src=\"../../js/easyxdm-sim.js\"></script>"
+}

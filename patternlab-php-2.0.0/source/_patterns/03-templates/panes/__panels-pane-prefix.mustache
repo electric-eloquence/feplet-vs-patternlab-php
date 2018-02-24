@@ -1,0 +1,21 @@
+{{# pane_prefix? }}
+  {{{ pane_prefix }}}
+{{/ pane_prefix? }}
+<div class="{{ pane_classes }}" {{{ pane_id }}} {{{ pane_attributes }}}>
+  {{# pane_admin_links? }}
+    {{{ pane_admin_links }}}
+  {{/ pane_admin_links? }}
+
+  {{{ pane_title_prefix }}}
+  {{# pane_title? }}
+    <h2{{{ pane_title_attributes }}}>{{{ pane_title }}}</h2>
+  {{/ pane_title? }}
+  {{{ pane_title_suffix }}}
+
+  {{# pane_feeds? }}
+    <div class="feed">
+      {{{ pane_feeds }}}
+    </div>
+  {{/ pane_feeds? }}
+
+  <div class="pane-content">

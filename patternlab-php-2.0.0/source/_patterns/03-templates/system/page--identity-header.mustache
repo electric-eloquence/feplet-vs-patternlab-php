@@ -1,0 +1,10 @@
+<div id="page" role="document">
+  <div class="header-default-bg"></div>
+  {{! Need the header id to be something other than #header in order for AJAX to
+      render correctly in IE. }}
+  <header id="header-content" role="banner" class="clearfix">
+    {{# 02_global_header }}
+      {{> 03-templates/system/region(02_global_header\?: true) }}
+    {{/ 02_global_header }}
+  </header>
+</div><!-- #page -->

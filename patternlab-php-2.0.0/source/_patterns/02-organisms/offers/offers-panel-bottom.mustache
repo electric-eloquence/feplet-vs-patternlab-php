@@ -1,0 +1,17 @@
+{{# offers_panel_bottom }}
+  {{# 04_offers_threecol_hero? }}
+    {{> 03-templates/panes/panels-pane(02_offers_panel_bottom\?: true) }}
+  {{/ 04_offers_threecol_hero? }}
+  {{# 04_offers_gridspan? }}
+    {{# offers_panel_bottom_gridspan_image }}
+      {{> 03-templates/panes/panels-pane(02_offers_panel_bottom_gridspan_image\?: true) }}
+    {{/ offers_panel_bottom_gridspan_image }}
+    {{# offers_panel_bottom_gridspan_slides }}
+      {{> 03-templates/panes/panels-pane(02_offers_panel_bottom_gridspan_slides\?: true) }}
+    {{/ offers_panel_bottom_gridspan_slides }}
+  {{/ 04_offers_gridspan? }}
+  {{> 03-templates/panes/panels-pane(02_offers_panel_bottom_2\?: true) }}
+  {{# additional_promos }}
+    {{> 03-templates/panes/panels-pane--section(downloads_and_games\?: true) }}
+  {{/ additional_promos }}
+{{/ offers_panel_bottom }}

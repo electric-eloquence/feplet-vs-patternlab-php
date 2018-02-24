@@ -1,0 +1,13 @@
+{
+  "04_title_detail_no_poster?": true,
+  "04_title_detail_no_slider?": true,
+  "04_title_detail_no_promo?": true,
+  "poster_art": {
+    "panels_pane__section_classes": "panel-pane pane-entity-field",
+    "panels_pane__section_unique_class": "pane-node-field-poster-art",
+    "srcset_lg": "../../images/nosync/noimageavailable_portal_344x480.jpg",
+    "srcset_md": "../../images/nosync/noimageavailable_portal_203x283.jpg",
+    "srcset_sm": "../../images/nosync/noimageavailable_portal_140x195.jpg",
+    "img_fallback": "../../images/nosync/noimageavailable_portal_344x480.jpg"
+  }
+}
