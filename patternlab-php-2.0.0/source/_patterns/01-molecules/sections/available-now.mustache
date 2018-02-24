@@ -1,0 +1,24 @@
+<footer>
+  <strong>Available On:</strong>
+  <ul>
+    <li class="cbox-overlay cboxElement" data-href="#digital_hd-1"><h2>Digital HD</h2></li>
+    <li><h2>Blu-ray</h2></li>
+    <li class="cbox-overlay cboxElement" data-href="#dvd-1"><h2>DVD</h2></li>
+    <li class="cbox-overlay cboxElement" data-href="#ondemand-1"><h2>On Demand</h2></li>
+
+  </ul>
+  {{#watch_video}}<a class="watch-video" href="#"><i class="icon-play"></i>Watch Video</a>{{/watch_video}}
+</footer>
+
+<div class="retailers-overlay">
+  <div class="field field-name-field-formats field-type-field-collection field-label-hidden">
+    <div class="field-items">
+      <div class="field-item even">
+        {{#is_available_dhd}}{{> organisms-retailer-overlay}}{{/is_available_dhd}}
+        {{#is_available_bluray}}{{> organisms-retailer-overlay}}{{/is_available_bluray}}
+        {{#is_available_dvd}}{{> organisms-retailer-overlay}}{{/is_available_dvd}}
+        {{#is_available_ondemand}}{{> organisms-retailer-overlay}}{{/is_available_ondemand}}
+      </div>
+    </div>
+  </div>
+</div>

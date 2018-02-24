@@ -1,0 +1,83 @@
+{{! drupal_docblock }}
+<div class="panel-display panel-2col-bricks-threecol clearfix" {{# css_id }}id="{{ css_id }}"{{/ css_id }}>
+  <div class="panel-panel panel-col-top">
+    <div class="inside">
+      {{# pane_block_menu_social }}
+        {{> 03-templates/panes/panels-pane(04_social_page_menu\?: true) }}
+      {{/ pane_block_menu_social }}
+    </div>
+  </div>
+
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside">
+        {{# pane_facebook }}
+          {{> 03-templates/panes/panels-pane(04_social_page_facebook\?: true) }}
+        {{/ pane_facebook }}
+      </div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside">
+        {{# pane_twitter }}
+          {{> 03-templates/panes/panels-pane(04_social_page_twitter\?: true) }}
+        {{/ pane_twitter }}
+      </div>
+    </div>
+  </div>
+
+  <div class="panel-panel panel-col-middle">
+    <div class="inside">
+      {{# pane_instagram }}
+        {{> 03-templates/panes/panels-pane(04_social_page_instagram\?: true) }}
+      {{/ pane_instagram }}
+      {{# pane_youtube }}
+        {{> 03-templates/panes/panels-pane(04_social_page_youtube\?: true) }}
+      {{/ pane_youtube }}
+    </div>
+  </div>
+
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside">
+        {{# pane_google_plus }}
+          {{> 03-templates/panes/panels-pane(04_social_page_google_plus\?: true) }}
+        {{/ pane_google_plus }}
+      </div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside">
+        {{# pane_tumblr }}
+          {{> 03-templates/panes/panels-pane(04_social_page_tumblr\?: true) }}
+        {{/ pane_tumblr }}
+      </div>
+    </div>
+  </div>
+
+  <div class="panel-panel panel-row-bottom">
+    <div class="panel-panel panel-col-first">
+      <div class="inside">
+        {{# pane_poll }}
+          {{> 03-templates/panes/panels-pane(04_social_page_social_poll\?: true) }}
+        {{/ pane_poll }}
+      </div>
+    </div>
+
+    <div class="panel-panel panel-col">
+      <div class="inside">
+        {{# pane_freeform }}
+          {{> 03-templates/panes/panels-pane(04_social_page_social_freeform\?: true) }}
+        {{/ pane_freeform }}
+      </div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside">
+        {{# pane_quiz }}
+          {{> 03-templates/panes/panels-pane(04_social_page_social_quiz\?: true) }}
+        {{/ pane_quiz }}
+      </div>
+    </div>
+  </div>
+</div>

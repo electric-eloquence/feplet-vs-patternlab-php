@@ -1,0 +1,56 @@
+<form>
+  <div>
+    <div class="views-exposed-form">
+      <div class="views-exposed-widgets clearfix">
+        {{#widgets}}
+          <div id="{{widget_id}}-wrapper" class="views-exposed-widget">
+            {{#widget_label}}
+              <label for="{{widget_id}}">
+                {{{widget_label}}}
+              </label>
+            {{/widget_label}}
+            {{#widget_operator}}
+              <div class="views-operator">
+                {{{widget_operator}}}
+              </div>
+            {{/widget_operator}}
+            <div class="views-widget">
+              {{{widget_widget}}}
+            </div>
+            {{#widget_description}}
+              <div class="description">
+                {{{widget_description}}}
+              </div>
+            {{/widget_description}}
+          </div>
+        {{/widgets}}
+        {{#sort_by}}
+          <div class="views-exposed-widget views-widget-sort-by">
+            {{{sort_by}}}
+          </div>
+          <div class="views-exposed-widget views-widget-sort-order">
+            {{{sort_order}}}
+          </div>
+        {{/sort_by}}
+        {{#items_per_page}}
+          <div class="views-exposed-widget views-widget-per-page">
+            {{{items_per_page}}}
+          </div>
+        {{/items_per_page}}
+        {{#offset}}
+          <div class="views-exposed-widget views-widget-offset">
+            {{{offset}}}
+          </div>
+        {{/offset}}
+        <div class="views-exposed-widget views-submit-button">
+          {{{button}}}
+        </div>
+        {{#reset_button}}
+          <div class="views-exposed-widget views-reset-button">
+            {{{reset_button}}}
+          </div>
+        {{/reset_button}}
+      </div>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,86 @@
+<div class="field-format-label" data-css-id="{{wrapper_id}}">{{format}}<span class="icon-arrow-down"></span></div>
+<div id="{{wrapper_id}}" class="field-format-wrapper">
+  <div class="close-bar">
+    Close
+    <div class="close-icon">
+      <span class="icon-close"></span>
+    </div>
+  </div>
+
+  <div id="{{accordion_id}}">
+    <h3>
+      {{> atoms-picture}}
+      
+      <div class="field-headline">
+
+        {{# 02_accordions_format_editions_movie? }}
+          {{#format_features_data}}
+            {{format_edition_headline}}
+          {{/format_features_data}}
+        {{/ 02_accordions_format_editions_movie? }}
+
+        {{# 02_accordions_format_editions_tv? }}
+          {{#complete_series_data}}
+            {{format_edition_headline}}
+          {{/complete_series_data}}
+        {{/ 02_accordions_format_editions_tv? }}
+
+      </div>
+      <div class="field-subheadline">
+
+        {{# 02_accordions_format_editions_movie? }}
+          {{#format_features_data}}
+            {{format_edition_subheadline}}
+          {{/format_features_data}}
+        {{/ 02_accordions_format_editions_movie? }}
+
+        {{# 02_accordions_format_editions_tv? }}
+          {{#complete_series_data}}
+            {{format_edition_subheadline}}
+          {{/complete_series_data}}
+        {{/ 02_accordions_format_editions_tv? }}
+
+      </div>
+    </h3>
+
+    {{> 03-templates/_nosync/entity/_entity~format-features }}
+
+    <h3>
+      {{> atoms-picture}}
+
+      <div class="field-headline">
+
+        {{# 02_accordions_format_editions_movie? }}
+          {{#format_features_data}}
+            {{format_edition_headline}}
+          {{/format_features_data}}
+        {{/ 02_accordions_format_editions_movie? }}
+
+        {{# 02_accordions_format_editions_tv? }}
+          {{#complete_series_data}}
+            {{format_edition_headline}}
+          {{/complete_series_data}}
+        {{/ 02_accordions_format_editions_tv? }}
+
+      </div>
+      <div class="field-subheadline">
+
+        {{# 02_accordions_format_editions_movie? }}
+          {{#format_features_data}}
+            {{format_edition_subheadline}}
+          {{/format_features_data}}
+        {{/ 02_accordions_format_editions_movie? }}
+
+        {{# 02_accordions_format_editions_tv? }}
+          {{#complete_series_data}}
+            {{format_edition_subheadline}}
+          {{/complete_series_data}}
+        {{/ 02_accordions_format_editions_tv? }}
+
+      </div>
+    </h3>
+
+    {{> 03-templates/_nosync/entity/_entity~format-features }}
+
+  </div>
+</div>

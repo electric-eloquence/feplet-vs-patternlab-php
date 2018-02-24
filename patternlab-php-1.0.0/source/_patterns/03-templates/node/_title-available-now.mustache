@@ -1,0 +1,23 @@
+<div class="item">
+  <div class="titles-strip--content">
+    <div class="content">
+      <a href="{{ node_url }}">
+        {{# has_content? }}
+          <picture>
+            <!--[if IE 9]><video style="display: none;"><![endif]-->
+            <source srcset="{{ srcset_md }}" media="(min-width: {{ bp_md }}px)">
+            <source srcset="{{ srcset_sm }}" media="(min-width: {{ bp_sm }}px)">
+            <!--[if IE 9]></video><![endif]-->
+            <img srcset="{{ img_fallback }}" alt="{{ format_2d_image_alt_text }}" title="{{ format_2d_image_title_text }}">
+          </picture>
+        {{/ has_content? }}
+        <span>
+          {{> 01-molecules/components/title-strip-formats }}
+        </span>
+      </a>
+      <div class="title-strip--title">  
+        <h3><a href="{{ node_url }}">{{ title_label }}</a></h3>
+      </div>
+    </div>
+  </div>
+</div>

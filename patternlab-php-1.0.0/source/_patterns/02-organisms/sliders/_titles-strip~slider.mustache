@@ -1,0 +1,13 @@
+{{# titles_strip }}
+  <div class="{{ titleshub_class }} titles-strip">
+    <div class="titles-strip--wrapper">
+      <div class="owl-carousel {{# quicktabs }}titles-strip--filter{{/ quicktabs }}{{^ quicktabs }}titles-strip--all{{/ quicktabs }}">
+        {{# titles_strip_items }}
+          <div class="item">
+            {{> 01-molecules/slides/title-strip }}
+          </div>
+        {{/ titles_strip_items }}
+      </div> 
+    </div> 
+  </div>
+{{/ titles_strip }}

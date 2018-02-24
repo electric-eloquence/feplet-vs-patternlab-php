@@ -1,0 +1,45 @@
+{
+  "titles_strip": {
+    "titleshub_name": "Favorites",
+    "titleshub_class": "favorites-strip",
+    "title_strip_format": false,
+    "quicktabs": true,
+    "quicktabs_machine_name": "favorites",
+    "quicktabs_url_name": "favorites",
+    "item_title": true,
+    "item_title_link": true,
+    "picture_class": "titles-strip--image",
+    "srcset_lg": "http://placehold.it/125x175",
+    "srcset_md": "http://placehold.it/125x175",
+    "srcset_sm": "http://placehold.it/164x230",
+    "img_fallback": "http://placehold.it/125x175",
+    "titles_strip_items": [
+      {
+        "srcset_lg": "http://placehold.it/125x165",
+        "srcset_md": "http://placehold.it/125x165",
+        "srcset_sm": "http://placehold.it/164x216",
+        "img_fallback": "http://placehold.it/125x165",
+        "title_label": "Short TV Label"
+      },
+      {
+        "title_label": "Long TV Label Long TV Label Long TV Label"
+      },
+      {
+        "srcset_lg": "http://placehold.it/125x170",
+        "srcset_md": "http://placehold.it/125x170",
+        "srcset_sm": "http://placehold.it/164x223",
+        "img_fallback": "http://placehold.it/125x170",
+        "title_label": "Extremely Long TV Label Extremely Long TV Label Extremely Long TV Label Extremely Long TV Label"
+      },
+      {
+        "title_label": "Short TV Label"
+      },
+      {
+        "title_label": "Long TV Label Long TV Label Long TV Label"
+      },
+      {
+        "title_label": "Extremely Long TV Label Extremely Long TV Label Extremely Long TV Label Extremely Long TV Label"
+      }
+    ]
+  }
+}

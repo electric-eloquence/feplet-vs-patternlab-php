@@ -1,0 +1,52 @@
+{{! drupal_docblock }}
+<div class="panel-display panel-threecol-hero clearfix" {{# css_id }}id="{{ css_id }}"{{/ css_id }}>
+  <div class="panel-panel panel-col-top">
+    <div class="inside">
+      {{> 02-organisms/offers/offers-panel-top }}
+    </div>
+  </div>
+
+  <div class="panel-panel panel-row-middle">
+    <div class="panel-panel panel-col-first">
+      <div class="inside">
+        {{# offers_panel_col }}
+          {{# offers_panel_left_middle }}
+              {{> 03-templates/panes/panels-pane(02_offers_panel_col\?: true) }}
+          {{/ offers_panel_left_middle }}
+        {{/ offers_panel_col }}
+      </div>
+    </div>
+
+    <div class="panel-panel panel-col">
+      <div class="inside">
+        {{# offers_panel_col }}
+          {{# offers_panel_center_middle }}
+            {{> 03-templates/panes/panels-pane(02_offers_panel_col\?: true) }}
+          {{/ offers_panel_center_middle }}
+        {{/ offers_panel_col }}
+      </div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside">
+        {{# offers_panel_col }}
+          {{# offers_panel_right_middle }}
+              {{> 03-templates/panes/panels-pane(02_offers_panel_col\?: true) }}
+          {{/ offers_panel_right_middle }}
+        {{/ offers_panel_col }}
+      </div>
+    </div>
+  </div>
+
+  <div class="panel-panel panel-col-bottom">
+    <div class="inside">
+      {{# 04_offers_threecol_hero? }}
+        {{> 02-organisms/offers/offers-panel-bottom(04_offers_threecol_hero\?: true) }}
+      {{/ 04_offers_threecol_hero? }}
+      {{# 04_offers_gridspan? }}
+        {{> 02-organisms/offers/offers-panel-bottom(04_offers_gridspan\?: true) }}
+      {{/ 04_offers_gridspan? }}
+    </div>
+  </div>
+
+</div>

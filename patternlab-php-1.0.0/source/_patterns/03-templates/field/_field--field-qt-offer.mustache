@@ -1,0 +1,44 @@
+{{> 03-templates/field/__field-prefix.mustache }}
+
+  <div class="owl-carousel">
+    {{# 02_offers_panel_col? }}
+      {{# offers_panel_col_field_collection_items }}
+        {{> 03-templates/field/__field-item-prefix.mustache }}
+          {{! template_content }}
+          {{> 03-templates/entity/entity(02_offers_panel_col_field_collection\?: true) }}
+        {{> 03-templates/field/__field-item-suffix.mustache }}
+      {{/ offers_panel_col_field_collection_items }}
+    {{/ 02_offers_panel_col? }}
+
+    {{# 02_offers_panel_bottom? }}
+      {{# offers_panel_bottom_field_collection }}
+        {{# offers_panel_bottom_field_collection_items }}
+          {{> 03-templates/field/__field-item-prefix }}
+            {{> 03-templates/entity/entity(02_offers_panel_bottom_field_collection\?: true) }}
+          {{> 03-templates/field/__field-item-suffix }}
+        {{/ offers_panel_bottom_field_collection_items }}
+      {{/ offers_panel_bottom_field_collection }}
+    {{/ 02_offers_panel_bottom? }}
+
+    {{# 02_offers_panel_bottom_2? }}
+      {{# offers_panel_bottom_field_collection }}
+        {{# offers_panel_bottom_field_collection_items_2 }}
+          {{> 03-templates/field/__field-item-prefix }}
+            {{> 03-templates/entity/entity(02_offers_panel_bottom_field_collection\?: true) }}
+          {{> 03-templates/field/__field-item-suffix }}
+        {{/ offers_panel_bottom_field_collection_items_2 }}
+      {{/ offers_panel_bottom_field_collection }}
+    {{/ 02_offers_panel_bottom_2? }}
+
+    {{# 02_offers_panel_bottom_gridspan? }}
+      {{# offers_panel_bottom_field_collection }}
+        {{# offers_panel_bottom_field_collection_items }}
+          {{> 03-templates/field/__field-item-prefix }}
+            {{> 03-templates/entity/entity(02_offers_panel_bottom_field_collection\?: true) }}
+          {{> 03-templates/field/__field-item-suffix }}
+        {{/ offers_panel_bottom_field_collection_items }}
+      {{/ offers_panel_bottom_field_collection }}
+    {{/ 02_offers_panel_bottom_gridspan? }}
+  </div>
+
+{{> 03-templates/field/__field-suffix.mustache }}

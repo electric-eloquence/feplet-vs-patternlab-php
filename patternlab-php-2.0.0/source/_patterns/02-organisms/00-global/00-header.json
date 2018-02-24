@@ -1,0 +1,6 @@
+{
+  "has_user_menu?": false,
+  "02_global_header": {
+    "region_classes": "region region-header identity-ui-hidden"
+  }
+}

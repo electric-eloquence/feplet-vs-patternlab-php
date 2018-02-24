@@ -1,0 +1,37 @@
+{
+  "faq_menu_items": [
+    {
+      "classes": "first",
+      "nav_list_item": "UltraViolet™"
+    },
+    {
+      "nav_list_item": "Digital Copy"
+    },
+    {
+      "nav_list_item": "Digital HD"
+    },
+    {
+      "nav_list_item": "Blu-ray™"
+    },
+    {
+      "nav_list_item": "DVD"
+    },
+    {
+      "nav_list_item": "Ipsum-ray™"
+    },
+    {
+      "nav_list_item": "Digital Lorem"
+    },
+    {
+      "nav_list_item": "On-Demand"
+    },
+    {
+      "nav_list_item": "Betamax"
+    },
+    {
+      "classes": "last",
+      "nav_list_item": "Laser Disc"
+    }
+  ],
+  "has_subtaxonomy?": true
+}

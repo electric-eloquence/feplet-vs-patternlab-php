@@ -1,0 +1,14 @@
+<div class="footer-menu-list">
+  {{#footer_menus}}
+    <div id="{{nav_list_id}}" class="{{nav_list_class}}">
+      <h2>{{nav_list_title}}</h2>
+      <div class="content">
+        <ul class="menu">
+          {{#footer_nav_list_items}}
+            {{> molecules-nav-list-item}}
+          {{/footer_nav_list_items}}
+        </ul>
+      </div>
+    </div>
+  {{/footer_menus}}
+</div>

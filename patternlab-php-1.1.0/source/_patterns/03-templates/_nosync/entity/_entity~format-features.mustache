@@ -1,0 +1,112 @@
+<div class="entity entity-field-collection-item field-collection-item-field-formats clearfix">
+  <div class="content">
+    <div class="field field-name-field-format-image field-type-image field-label-hidden field-format-image-{{ format_image_id }}">
+      {{# is_blu_ray }}
+        {{> molecules-sku-image-blu-ray }}
+      {{/ is_blu_ray }}
+      {{# is_dvd }}
+        {{> molecules-sku-image-dvd }}
+      {{/ is_dvd }}
+      {{# is_digital_hd }}
+        {{> molecules-sku-image-digital-hd }}
+      {{/ is_digital_hd }}
+      {{# is_ondemand }}
+        {{> molecules-sku-image-ondemand }}
+      {{/ is_ondemand }}
+    </div>
+    <div class="field field-name-field-headline field-type-text field-label-hidden">
+      <div class="field-items">
+        <div class="field-item even">
+
+          {{# 02_accordions_complete_series? }}
+            {{# complete_series_data }}
+              {{ format_edition_headline }}
+            {{/ complete_series_data }}
+          {{/ 02_accordions_complete_series? }}
+
+          {{# 02_accordions_format_features? }}
+            {{# format_features_data }}
+              {{ format_edition_headline }}
+            {{/ format_features_data }}
+          {{/ 02_accordions_format_features? }}
+
+        </div>
+      </div>
+    </div>
+    <div class="field field-name-field-subheadline field-type-text field-label-hidden">
+      <div class="field-items">
+        <div class="field-item even">
+
+          {{# 02_accordions_complete_series? }}
+            {{# complete_series_data }}
+              {{ format_edition_subheadline }}
+            {{/ complete_series_data }}
+          {{/ 02_accordions_complete_series? }}
+
+          {{# 02_accordions_format_features? }}
+            {{# format_features_data }}
+              {{ format_edition_subheadline }}
+            {{/ format_features_data }}
+          {{/ 02_accordions_format_features? }}
+
+        </div>
+      </div>
+    </div>
+
+    {{# is_blu_ray }}
+      {{> molecules-title-buy-now-single }}
+    {{/ is_blu_ray }}
+    {{# is_dvd }}
+      {{> molecules-title-buy-now-single }}
+    {{/ is_dvd }}
+    {{# is_digital_hd }}
+      {{> molecules-title-buy-now-single }}
+    {{/ is_digital_hd }}
+    {{# is_ondemand }}
+      {{> molecules-title-buy-now-single }}
+    {{/ is_ondemand }}
+
+    {{# field_supplementary_images }}
+      {{> 03-templates/field/field(supplementary_images\?: true) }}
+    {{/ field_supplementary_images }}
+
+    <div class="field-collection-container clearfix">
+      <div class="field field-name-field-features field-type-field-collection field-label-hidden">
+        <div class="field-items">
+
+          {{# 02_accordions_complete_series? }}
+            {{> organisms-complete-series~field-items }}
+          {{/ 02_accordions_complete_series? }}
+
+          {{# 02_accordions_format_features? }}
+            {{> organisms-format-features~field-items }}
+          {{/ 02_accordions_format_features? }}
+
+        </div>
+      </div>
+    </div>
+
+    {{# 02_accordions_complete_series? }}
+      {{# complete_series_data }}
+        {{# field_street_date }}
+          {{> 03-templates/field/field(street_date\?: true) }}
+        {{/ field_street_date }}
+        {{# field_number_of_discs }}
+          {{> 03-templates/field/field(number_of_discs\?: true) }}
+        {{/ field_number_of_discs }}
+      {{/ complete_series_data }}
+    {{/ 02_accordions_complete_series? }}
+
+    {{# 02_accordions_format_features? }}
+      {{# format_features_data }}
+        {{# field_street_date }}
+          {{> 03-templates/field/field(street_date\?: true) }}
+        {{/ field_street_date }}
+        {{# field_number_of_discs }}
+          {{> 03-templates/field/field(number_of_discs\?: true) }}
+        {{/ field_number_of_discs }}
+      {{/ format_features_data }}
+    {{/ 02_accordions_format_features? }}
+
+  </div>
+</div>

@@ -1,0 +1,17 @@
+  </div>
+
+  {{# pane_links? }}
+    <div class="links">
+      {{{ pane_links }}}
+    </div>
+  {{/ pane_links? }}
+
+  {{# pane_more? }}
+    <div class="more-link">
+      {{{ pane_more }}}
+    </div>
+  {{/ pane_more? }}
+</div>
+{{# pane_suffix? }}
+  {{{ pane_suffix }}}
+{{/ pane_suffix? }}

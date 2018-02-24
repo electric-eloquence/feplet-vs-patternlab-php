@@ -1,0 +1,27 @@
+<div class="buy-buttons-wrapper">
+  <div class="buy-buttons-align">
+    <hr class="buy-now-left">
+    <h3 class="buy-now-middle">BUY NOW</h3>
+    <hr class="buy-now-right">
+    <ul class="buy-buttons">
+      <li class="cbox-overlay cboxElement" data-href="#digital_hd-1"><h2>Digital HD</h2></li>
+      <li><h2>Blu-ray</h2></li>
+      <li class="cbox-overlay cboxElement" data-href="#dvd-1"><h2>DVD</h2></li>
+      <li class="cbox-overlay cboxElement" data-href="#ondemand-1"><h2>On Demand</h2></li>
+    </ul>
+  </div>
+  <a class="redeem-digital active" href="http://localhost.localdomain" target="_blank">REDEEM DIGITAL</a>
+</div>
+
+<div class="retailers-overlay">
+  <div class="field field-name-field-formats field-type-field-collection field-label-hidden">
+    <div class="field-items">
+      <div class="field-item even">
+        {{#is_available_dhd}}{{> organisms-retailer-overlay}}{{/is_available_dhd}}
+        {{#is_available_bluray}}{{> organisms-retailer-overlay}}{{/is_available_bluray}}
+        {{#is_available_dvd}}{{> organisms-retailer-overlay}}{{/is_available_dvd}}
+        {{#is_available_ondemand}}{{> organisms-retailer-overlay}}{{/is_available_ondemand}}
+      </div>
+    </div>
+  </div>
+</div>

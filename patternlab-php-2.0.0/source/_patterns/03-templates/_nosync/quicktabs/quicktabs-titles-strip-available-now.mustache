@@ -1,0 +1,9 @@
+<div class="quicktabs-tabpage">
+  <div class="ajax-response">
+    {{> 03-templates/block/block(02_sliders_titles_strip_available_now\?: true) }}
+    <script type="text/javascript">
+      Drupal.behaviors.owlStrips.attach(jQuery('#quicktabs-tabpage-available_now-1 .ajax-response'));
+      picturefill();
+    </script>
+  </div>
+</div>

@@ -1,0 +1,1586 @@
+{
+"footer_menus": [
+  {
+    "nav_list_title": "Sites",
+    "nav_list_id": "block-menu-menu-footer-sites",
+    "nav_list_class": "block block-menu contextual-links-region",
+    "footer_nav_list_items": [
+      {
+        "nav_list_item": "Pictures"
+      },
+      {
+        "nav_list_item": "Orlando"
+      },
+      {
+        "nav_list_item": "Hollywood"
+      },
+      {
+        "nav_list_item": "BC"
+      },
+      {
+        "nav_list_item": "Digital Distribution Affiliates"
+      }
+    ]
+  },
+  {
+    "nav_list_title": "Learn More",
+    "nav_list_id": "block-menu-menu-footer-learn-more",
+    "nav_list_class": "block block-menu contextual-links-region",
+    "footer_nav_list_items": [
+      {
+        "nav_list_item": "UltraViolet™"
+      },
+      {
+        "nav_list_item": "Blu-ray™"
+      },
+      {
+        "nav_list_item": "How-to-order On Demand"
+      },
+      {
+        "nav_list_item": "Get On Demand"
+      }
+    ]
+  },
+  {
+    "nav_list_title": "Support",
+    "nav_list_id": "block-menu-menu-footer-support",
+    "nav_list_class": "block block-menu contextual-links-region",
+    "footer_nav_list_items": [
+      {
+        "nav_list_item": "Digital Copy FAQ"
+      },
+      {
+        "nav_list_item": "UltraViolet FAQ"
+      },
+      {
+        "nav_list_item": "Blu-ray FAQ"
+      },
+      {
+        "nav_list_item": "Blu-ray 3D FAQ"
+      },
+      {
+        "nav_list_item": "Contact Support"
+      }
+    ]
+  },
+  {
+    "nav_list_title": "Legal",
+    "nav_list_id": "block-menu-menu-footer-legal",
+    "nav_list_class": "block block-menu contextual-links-region",
+    "footer_nav_list_items": [
+      {
+        "nav_list_item": "Terms of Use"
+      },
+      {
+        "nav_list_item": "Privacy Policy"
+      }
+    ]
+  }
+]
+,
+  "backend_serve_dir": "docroot/sites",
+  "bg_img_blurred": "../../images/nosync/perfect_1_690x345-blur.jpg",
+  "bg_img_srcs": "{\"0\":\"../../images/nosync/perfect_1_690x345.jpg\"}",
+  "block_classes": "block block-system",
+  "block_id": "block-system-main",
+  "bp_sm": "0",
+  "bp_md": "721",
+  "bp_lg": "955",
+  "field_label_hidden?": true,
+  "has_content?": true,
+  "has_user_menu?": true,
+  "homepage": "04-pages-00-homepage",
+  "logo": "../../images/logo.svg",
+  "pane_classes": "panels-section-new clearfix",
+  "pane_title_attributes": " class=\"pane-title\"",
+  "panels_pane__aside_classes": "panels-section-row panels-section-row-new clearfix",
+  "panels_pane__section_title_attributes": " class=\"pane-title\"",
+  "region_classes": "region-content",
+  "template_content": "<p>INCLUDE PROTOTYPE CONTENT BELOW.</p><p>To create variants of a reusable template, wrap the partial tags in conditionals which namespace by pattern type, subtype, and name.</p>",
+  "views_view_rows?": true,
+"header_user_menu_items": [
+  {
+    "nav_list_item": "My Collection",
+    "classes": "first"
+  },
+  {
+    "nav_list_item": "My Info"
+  },
+  {
+    "nav_list_item": "Sign Out",
+    "classes": "last"
+  }
+]
+,
+"search_widget": {
+  "search_widget_id": "edit-search-api-views-fulltext-wrapper",
+  "search_view_id": "filter-search_api_views_fulltext"
+}
+,
+"02_global_header": {
+  "region_classes": "region region-header"
+},
+"01_navigation_nav_toggle": {
+  "block_id": "block-system-nav-toggle",
+  "block_classes": "block block-theme-settings"
+},
+"01_components_user_menu": {
+  "block_id": "block-identity-identity-ui",
+  "block_classes": "block block-theme-settings is-hidden"
+},
+"02_global_main_menu": {
+  "block_id": "block-system-main-menu",
+  "block_classes": "block block-system block-menu mobile-hide"
+},
+"01_forms_search": {
+  "block_id": "block-views-826b5af9b1167885457d8a6e70a992da",
+  "block_classes": "block-search-form"
+},
+"02_global_header_faq_menu": {
+  "block_id": "block-menu-menu-faq",
+  "block_classes": "block block-menu",
+  "block_subject?": true,
+  "block_subject": "FAQ Menu"
+},
+"header_nav_list_items": [
+  {
+    "nav_list_item": "Movies",
+    "classes": "first"
+  },
+  {
+    "nav_list_item": "TV"
+  },
+  {
+    "nav_list_item": "Video"
+  },
+  {
+    "nav_list_item": "Social"
+  },
+  {
+    "nav_list_item": "News"
+  },
+  {
+    "nav_list_item": "Redeem Digital"
+  },
+  {
+    "nav_list_item": "My Collection",
+    "classes": "identity_visibility-logged_in"
+  },
+  {
+    "nav_list_item": "Discover",
+    "classes": "last expanded",
+    "has_submenu?": true
+  }
+],
+"header_discover_submenu_items": [
+  {
+    "nav_list_item": "Digital HD with UltraViolet™",
+    "classes": "first"
+  },
+  {
+    "nav_list_item": "Blu-ray™",
+    "classes": ""
+  },
+  {
+    "nav_list_item": "How-to-order On Demand",
+    "classes": ""
+  },
+  {
+    "nav_list_item": "Get On Demand",
+    "classes": "last"
+  }
+]
+,
+"02_global_footer_prefix": {
+  "region_classes": "region region-footer-prefix block-dfp-bottom-banner"
+},
+"02_global_footer_main": {
+  "region_classes": "region region-footer block-system-footer-menu"
+},
+"02_global_footer_suffix": {
+  "region_classes": "region region-footer-suffix block-system-copyright"
+},
+"format_features_data": {
+  "format_edition_headline": "Special Edition",
+  "format_edition_subheadline": "Blu-ray + DVD + Digital Copy",
+  "number_of_discs": "2",
+  "release_date": "<span class=\"date-display-single\">January 6, 2222</span>",
+  "is_available_dvd?": true,
+  "field_street_date": {
+    "field_classes": "field-type-datestamp field-label-inline",
+    "field_unique_class": "field-name-field-street-date",
+    "field_label_hidden?": false,
+    "field_label": "Release Date: "
+  },
+  "field_number_of_discs": {
+    "field_classes": "field-type-text field-label-inline",
+    "field_unique_class": "field-name-field-number-of-discs",
+    "field_label_hidden?": false,
+    "field_label": "Number of Discs: "
+  }
+},
+"complete_series_data": {
+  "format_edition_headline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida purus vel leo sollicitudin, a commodo arcu eleifend.",
+  "format_edition_subheadline": "Cras fermentum blandit lorem ac dapibus. Aenean venenatis sem augue, ornare ultrices eros euismod quis. Quisque eleifend pretium dolor, quis pharetra urna varius sit amet. Suspendisse at sagittis nibh, nec tempor nisl. Morbi nibh velit, efficitur id nibh et, congue placerat sem. Aliquam at velit mollis, egestas quam eget, ornare felis. Donec leo quam, gravida sit amet massa at, semper efficitur elit. Aenean maximus scelerisque urna, id lacinia mauris scelerisque ac. Nulla semper sit amet nisi id commodo. Sed quam orci, placerat quis interdum eu, mattis et metus. Phasellus eu interdum tortor.",
+  "number_of_discs": "38",
+  "release_date": "<span class=\"date-display-single\">December 6, 2014</span>",
+  "is_available_bluray?": true,
+  "field_street_date": {
+    "field_classes": "field-type-datestamp field-label-inline",
+    "field_unique_class": "field-name-field-street-date",
+    "field_label_hidden?": false,
+    "field_label": "Release Date: "
+  },
+  "field_number_of_discs": {
+    "field_classes": "field-type-text field-label-inline",
+    "field_unique_class": "field-name-field-number-of-discs",
+    "field_label_hidden?": false,
+    "field_label": "Number of Discs: "
+  }
+}
+,
+"poster_art": {
+  "panels_pane__section_classes": "panel-pane pane-entity-field",
+  "panels_pane__section_unique_class": "pane-node-field-poster-art",
+  "srcset_lg": "../../images/nosync/big-poster-344x480.jpg",
+  "srcset_md": "../../images/nosync/big-poster-203x283.jpg",
+  "srcset_sm": "../../images/nosync/big-poster-140x195.jpg",
+  "img_fallback": "../../images/nosync/big-poster-344x480.jpg"
+}
+,
+"field_supplementary_images": {
+  "field_classes": "field-type-image field-label-hidden",
+  "field_unique_class": "field-name-field-supplementary-images"
+},
+"supplementary_images": [
+  {
+    "img_href": "../../images/nosync/lucy_SL1500_.jpg",
+    "img_src": "http://placehold.it/65x95/65951f/FFFFFF"
+  },
+  {
+    "img_href": "../../images/nosync/lucy_SL1500_.jpg",
+    "img_src": "http://placehold.it/65x95/65951f/FFFFFF"
+  },
+  {
+    "img_href": "../../images/nosync/lucy_SL1500_.jpg",
+    "img_src": "http://placehold.it/65x95/65951f/FFFFFF"
+  },
+  {
+    "img_href": "../../images/nosync/lucy_SL1500_.jpg",
+    "img_src": "http://placehold.it/65x95/65951f/FFFFFF"
+  }
+]
+,
+"faq": {
+  "views_view_header?": true,
+  "views_view_classes": "view view-faq view-id-view-display-id-page view-dom-id-78d5161a3e8aaf2bc1f3081d918764c3",
+  "views_view_footer?": true,
+  "faq_view_header": {
+    "views_view_classes": "view view-faq-aux view-id-faq_aux view-display-id-default view-dom-id-2917d8874d7aa6f496e7eedeaba27ddb",
+    "faq_view_header_header": "<h2>UltraViolet™ FAQ0</h2>"
+  },
+  "faq_view_rows": [
+    {
+      "faq_view_row_classes": "views-row views-row-1 views-row-odd views-row-first",
+      "faq_view_row_header": "What is a UltraViolet™ and how do I participate?",
+      "faq_view_row_content": "<p>UltraViolet™ is an all-new way to collect, access, and enjoy your movies and TV shows in the cloud. The cloud stores the content that you own in an online library, allowing you to instantly stream and download to tablets, smartphones, computers, and TVs. So now, you have the freedom to enjoy your entertainment anytime, anywhere!</p><p>Just look for the UltraViolet™ logo whenever you buy movies and TV shows on Blu-ray, DVD, or DIGITAL HD. Then, follow the instructions included with the product to set up your free UltraViolet™ account.</p><ul><li>Unordered List Item 1</li><li>Unordered List Item 2</li><li>Unordered List Item 3</li></ul><ol><li>Ordered List Item 1</li><li>Ordered List Item 2</li><li>Ordered List Item 3</li></ol>"
+    },
+    {
+      "faq_view_row_classes": "views-row views-row-2 views-row-even",
+      "faq_view_row_header": "What is Lorem Ipsum?",
+      "faq_view_row_content": "<p>Aenean sit amet sagittis lorem, at bibendum augue. Mauris imperdiet consequat turpis vel vulputate. Ut felis urna, dapibus ut blandit et, convallis vel dolor. Cras eget nibh quam. Aenean blandit arcu id ipsum aliquet, nec cursus massa iaculis. Duis aliquet enim ante, vel rutrum augue cursus ac. Sed at lobortis ante. Sed viverra, libero tincidunt laoreet scelerisque, neque sem sollicitudin ex, ac pulvinar neque magna id dolor. Nullam vel pharetra arcu, quis faucibus ante. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam rhoncus risus lorem, et luctus massa ultrices at. Cras scelerisque ligula faucibus mauris rutrum semper.</p>"
+    },
+    {
+      "faq_view_row_classes": "views-row views-row-3 views-row-odd",
+      "faq_view_row_header": "How do I Lorem Ipsum?",
+      "faq_view_row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis tincidunt mauris. Sed a turpis ante. Ut ultrices faucibus fringilla. Phasellus iaculis, tellus sollicitudin mollis pharetra, orci ante finibus nibh, sit amet malesuada purus ligula vel mi. Nam dictum vitae purus ut egestas. Fusce id auctor nulla. Etiam orci eros, pretium et dolor a, eleifend facilisis est. In hac habitasse platea dictumst. Vestibulum in eros nec eros vehicula porttitor. Proin consectetur, orci vel porta sollicitudin, nulla felis varius tellus, faucibus luctus ex libero suscipit lorem.</p>"
+    },
+    {
+      "faq_view_row_classes": "views-row views-row-4 views-row-even",
+      "faq_view_row_header": "When can I Lorem an Ipsum?",
+      "faq_view_row_content": "<p>Vestibulum luctus fermentum posuere. Nulla facilisi. Duis at finibus tortor, quis malesuada odio. Nullam sed lorem pharetra, rhoncus quam vitae, suscipit nulla. Morbi volutpat elit eget arcu efficitur, ut mollis elit mattis. Vivamus elementum, odio vel tincidunt suscipit, sem dolor aliquam leo, eu viverra nibh nulla nec urna. Sed ac justo dolor. Vestibulum sed ligula at nibh dignissim bibendum. Nunc imperdiet nec nunc ac congue. Suspendisse a vehicula nulla, id finibus dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. Morbi vitae ante sit amet neque aliquet luctus volutpat non elit.</p>"
+    },
+    {
+      "faq_view_row_classes": "views-row views-row-5 views-row-odd views-row-last",
+      "faq_view_row_header": "Do I have to Lorem Ipsum to Lorem Ipsum?",
+      "faq_view_row_content": "<p>Maecenas molestie, orci non pharetra molestie, est felis luctus sapien, eu lobortis ligula ligula ut diam. Morbi imperdiet bibendum elit vel cursus. Sed ac dignissim diam. Duis at efficitur lacus. Quisque et elit massa. Pellentesque consequat vel eros eu volutpat. Morbi eu sagittis arcu, in mollis mi. Morbi nunc dui, euismod sit amet arcu in, fermentum fringilla eros. Sed vestibulum purus ante, sit amet elementum metus blandit ut. Quisque pulvinar libero metus, sit amet tincidunt ante vulputate viverra. Phasellus vehicula auctor velit tincidunt egestas.</p>"
+    }
+  ]
+},
+"faq_menu_items": [
+  {
+    "classes": "first",
+    "nav_list_item": "UltraViolet™"
+  },
+  {
+    "nav_list_item": "Digital Copy"
+  },
+  {
+    "nav_list_item": "Blu-ray™"
+  },
+  {
+    "nav_list_item": "Blu-ray™ 3D"
+  },
+  {
+    "classes": "last",
+    "nav_list_item": "DVD"
+  }
+]
+,
+"02_listing_items_search_results_view": {
+  "rating": true,
+  "views_view_header?": true,
+  "views_view_classes": "view view-search-results view-id-search_results view-display-id-page view-dom-id-e88ad6916d7fef099c50ea11d6e78e11",
+  "views_view_exposed?": true,
+  "views_view_pager?": true,
+  "search_results_rows": [
+    {
+      "sku_item": [
+         {
+          "item_image": "http://placehold.it/92x125/3279f2/FFFFFF",
+          "item_title": "Monster High Double Feature - Friday Night Frights / Why Do Ghouls Fall in Love",
+          "item_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis urna mauris, tempor vel nisl eget, vulputate fringilla risus."
+        },
+        {
+          "item_image": "http://placehold.it/92x125/7f5993/FFFFFF",
+          "item_title": "The Purge: Anarchy",
+          "item_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+          "item_image": "http://placehold.it/92x125/ff0000/FFFFFF",
+          "item_title": "Thomas & Friends: The Christmas Engines",
+          "item_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
+    }
+  ]
+}
+,
+"titles_listing": {
+  "views_view_classes": "view view-titles-landing-pages view-id-titles_landing_pages",
+  "views_view_exposed?": true,
+  "views_view_pager?": true,
+  "titles_listing_rows": [
+    {
+      "sku_item": [
+         {
+          "item_image": "http://placehold.it/92x125/3279f2/FFFFFF",
+          "item_title": "Monster High Double Feature - Friday Night Frights / Why Do Ghouls Fall in Love",
+          "item_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non risus diam. Integer condimentum pretium urna id condimentum. Mauris malesuada purus augue, luctus pellentesque quam scelerisque vel. Nulla congue turpis nec nulla volutpat rhoncus. Pellentesque sit amet pretium justo. Donec eu laoreet neque. Nunc dapibus non arcu a imperdiet. Vivamus posuere vehicula semper. Morbi ut felis at orci vulputate pellentesque at eu augue."
+        },
+        {
+          "item_image": "http://placehold.it/92x118/7f5993/FFFFFF",
+          "item_title": "The Purge: Anarchy",
+          "item_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "watch_video": true
+        },
+        {
+          "item_image": "http://placehold.it/92x125/ff0000/FFFFFF",
+          "item_title": "Thomas & Friends: The Christmas Engines",
+          "item_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
+    }
+  ],
+  "is_available_all": true,
+  "is_available_dhd": {
+    "retailer_format": "Digital HD",
+    "retailer_format_class": "digital_hd",
+    "promo_id": 1,
+    "retailer_overlay_title": "Marble Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+  },
+  "is_available_bluray": {
+    "retailer_format": "Blu-ray",
+    "retailer_format_class": "bluray",
+    "promo_id": 1,
+    "retailer_overlay_title": "Materiall Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+  },
+  "is_available_dvd": {
+    "retailer_format": "DVD",
+    "retailer_format_class": "dvd",
+    "promo_id": 1,
+    "retailer_overlay_title": "Materialle Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+  },
+  "is_available_ondemand": {
+    "retailer_format": "On Demand",
+    "retailer_format_class": "ondemand",
+    "promo_id": 1,
+    "retailer_overlay_title": "Hello Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+  }
+}
+,
+"title_page_video": {
+  "panels_pane__section_classes": "panel-pane pane-entity-field",
+  "panels_pane__section_unique_class": "pane-node-field-featured-video",
+  "field_classes": "field-type-file field-label-hidden",
+  "field_unique_class": "field-name-field-featured-video"
+}
+,
+"offers_panel_bottom": {
+  "entity_classes": "entity-queues queues-offer",
+  "field_classes": "field-name-field-qt-offer field-type-entityreference field-label-hidden",
+  "pane_classes": "panel-pane pane-queues",
+  "pane_title?": true,
+  "pane_title": "CMS Controlled Text",
+  "format_image_large": "http://placehold.it/125x168/025a26/FFFFFF",
+  "format_image_medium": "http://placehold.it/125x168/025a26/FFFFFF",
+  "format_image_small": "http://placehold.it/140x188/4aafd6/FFFFFF",
+  "movie_title": "Movie Title Here",
+  "offers_panel_bottom_field_collection": {
+    "entity_classes": "entity-field-collection-item field-collection-item-field-formats",
+    "field_classes": "field-name-field-format-image-2d field-type-image field-label-hidden",
+    "offers_panel_bottom_field_collection_items": [
+      {
+        "has_buy_button?": true
+      },
+      {
+        "format_image_large": "http://placehold.it/125x161/025a26/FFFFFF",
+        "format_image_medium": "http://placehold.it/125x161/025a26/FFFFFF",
+        "format_image_small": "http://placehold.it/140x180/4aafd6/FFFFFF",
+        "has_buy_button?": true
+      },
+      {
+        "movie_title": "Really Long Movie Title Here",
+        "has_buy_button?": true
+      },
+      {
+        "format_image_large": "http://placehold.it/125x178/025a26/FFFFFF",
+        "format_image_medium": "http://placehold.it/125x178/025a26/FFFFFF",
+        "format_image_small": "http://placehold.it/140x200/4aafd6/FFFFFF",
+        "movie_title": "Exceptionally Long Movie Title Here, It's a Really Long One"
+      },
+      {
+        "format_image_large": "http://placehold.it/125x178/025a26/FFFFFF",
+        "format_image_medium": "http://placehold.it/125x178/025a26/FFFFFF",
+        "format_image_small": "http://placehold.it/140x200/4aafd6/FFFFFF",
+        "movie_title": "Exceptionally Long Movie Title Here, It's a Really Long One",
+        "has_buy_button?": true
+      },
+      {},
+      {},
+      {
+        "format_image_large": "http://placehold.it/125x156/025a26/FFFFFF",
+        "format_image_medium": "http://placehold.it/125x156/025a26/FFFFFF",
+        "format_image_small": "http://placehold.it/140x175/4aafd6/FFFFFF",        
+        "movie_title": "Exceptionally Long Movie Title Here, It's a Really Long One",
+        "has_buy_button?": true
+      },
+      {},
+      {
+        "format_image_large": "http://placehold.it/125x178/025a26/FFFFFF",
+        "format_image_medium": "http://placehold.it/125x178/025a26/FFFFFF",
+        "format_image_small": "http://placehold.it/140x200/4aafd6/FFFFFF",        
+        "movie_title": "Exceptionally Long Movie Title Here, It's a Really Long One",
+        "has_buy_button?": true
+      }
+    ],
+    "offers_panel_bottom_field_collection_items_2": [
+      {
+        "movie_title": "Exceptionally Long Movie Title Here, It's a Really Long One",
+        "has_buy_button?": true
+      },
+      {
+        "has_buy_button?": true
+      },
+      {
+        "has_buy_button?": true
+      },
+      {},
+      {
+        "has_buy_button?": true
+      }
+    ]
+  },
+  "offers_panel_bottom_gridspan_image": {
+    "pane_classes": "panel-pane pane-fieldable-panels-pane pane-bundle-media-pane",
+    "field_classes": "field field-name-media-pane-media field-type-file field-label-hidden",
+    "file_classes": "file-image",
+    "format_image_large": "http://placehold.it/515x550/937788/FFFFFF",
+    "format_image_medium": "http://placehold.it/405x433/4aafd6/FFFFFF",
+    "format_image_small": "http://placehold.it/405x433/025a26/FFFFFF"
+  },
+  "offers_panel_bottom_gridspan_slides": {
+    "entity_classes": "entity-field-collection-item field-collection-item-field-formats",
+    "pane_title?": false,
+    "format_image_large": "http://placehold.it/125x175/025a26/FFFFFF",
+    "format_image_medium": "http://placehold.it/125x175/025a26/FFFFFF",
+    "format_image_small": "http://placehold.it/140x196/4aafd6/FFFFFF",
+    "movie_title": "Movie Title Here",
+    "offers_panel_bottom_field_collection": {
+      "field_classes": "field-name-field-format-image-2d field-type-image field-label-hidden",
+      "offers_panel_bottom_field_collection_items": [
+        {
+          "has_buy_button?": true
+        },
+        {
+          "has_buy_button?": true
+        },
+        {
+          "has_buy_button?": true
+        },
+        {}
+      ]
+    }
+  },
+  "additional_promos": {
+    "panels_pane__section_classes": "panel-pane pane-entity-field",
+    "panels_pane__section_unique_class": "pane-node-field-additional-promos-slider",
+    "panels_pane__section_header?": true,
+    "panels_pane__section_title?": true,
+    "panels_pane__section_title": "Additional Promos",
+    "play_icon": false,
+    "media_strip_class": "additional-promos-slider",
+    "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+    "media_title": false,
+    "media_strip": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  }
+}
+,
+"offers_panel_col": {
+  "entity_classes": "entity-queues queues-offer",
+  "field_classes": "field-name-field-qt-offer field-type-entityreference field-label-hidden",
+  "pane_classes": "panel-pane pane-queues",
+  "offers_panel_col_field_collection_items": [
+    {
+      "entity_classes": "entity-field-collection-item field-collection-item-field-formats",
+      "field_classes": "field-name-field-format-image-2d field-type-image field-label-hidden",
+      "format_image_large": "http://placehold.it/203x284/53106a/FFFFFF",
+      "format_image_medium": "http://placehold.it/203x284/53106a/FFFFFF",
+      "format_image_small": "http://placehold.it/203x284/53106a/FFFFFF"
+    }
+  ],
+  "offers_panel_left_middle": {
+    "movie_title": "Exceptionally Long Movie Title Here, It's a Really Long One",
+    "has_buy_button?": false
+  },
+  "offers_panel_center_middle": {
+    "movie_title": "Movie Title Here",
+    "has_buy_button?": true
+  },
+  "offers_panel_right_middle": {
+    "movie_title": "Movie Title Here",
+    "has_buy_button?": true
+  }
+},
+"offers_panel_hero": {
+  "pane_classes": "panel-pane pane-fieldable-panels-pane pane-bundle-media-pane",
+  "field_classes": "field field-name-media-pane-media field-type-file field-label-hidden",
+  "file_classes": "file file-image",
+  "format_image_large": "http://placehold.it/610x400/937788/FFFFFF",
+  "format_image_medium": "http://placehold.it/450x295/4aafd6/FFFFFF",
+  "format_image_small": "http://placehold.it/450x295/025a26/FFFFFF"
+}
+,
+"offers_panel_top": {
+  "offers_panel_top_social": {
+    "pane_classes": "panel-pane pane-entity-field pane-node-field-stay-connected",
+    "pane_title?": true,
+    "pane_title": "Share",
+    "social_links": [
+      {
+        "social_url": "#uphe.com/news",
+        "social_network": ""
+      },
+      {
+        "social_url": "#facebook.com",
+        "social_network": ""
+      },
+      {
+        "social_url": "#twitter.com",
+        "social_network": ""
+      },
+      {
+        "social_url": "#instagram.com",
+        "social_network": ""
+      },
+      {
+        "social_url": "#google.com",
+        "social_network": ""
+      },
+      {
+        "social_url": "#tumblr.com",
+        "social_network": ""
+      }
+    ]
+  },
+  "offers_panel_top_subheading": {
+    "pane_classes": "panel-pane pane-entity-field pane-node-field-subheadline",
+    "field_classes": "field-name-field-subheadline field-type-text field-label-hidden"
+  },
+  "offers_panel_top_body": {
+    "pane_classes": "panel-pane pane-entity-field pane-node-body",
+    "field_classes": "field-name-body field-type-text-with-summary field-label-hidden"
+  }
+}
+,
+"retailer_links": [
+  {
+    "url": "http://amazon.com/",
+    "retailer": "Amazon"
+  },
+  {
+    "url": "http://www.barnesandnoble.com/",
+    "retailer": "Barnes & Noble"
+  },
+  {
+    "url": "http://bestbuy.com/",
+    "retailer": "Best Buy"
+  },
+  {
+    "url": "http://fye.com/",
+    "retailer": "F.Y.E."
+  },
+  {
+    "url": "http://www.gohastings.com/",
+    "retailer": "Hastings"
+  },
+  {
+    "url": "http://kmart.com/",
+    "retailer": "KMart"
+  },
+  {
+    "url": "http://target.com/",
+    "retailer": "Target"
+  },
+  {
+    "url": "http://walmart.com/",
+    "retailer": "Walmart"
+  }
+],
+"format_blu_ray": {
+  "is_blu_ray": "true",
+  "wrapper_id": "field_format_wrapper",
+  "format": "Blu-ray",
+  "format_image_id": "1",
+  "accordion_id": "accordion",
+  "picture_class": "picture-format-image-1",
+  "srcset_lg": "http://placehold.it/319x425/3f64a1/FFFFFF",
+  "srcset_md": "http://placehold.it/280x373/3f64a1/FFFFFF",
+  "srcset_sm": "http://placehold.it/280x373/3f64a1/FFFFFF",
+  "img_fallback": "http://placehold.it/319x425/3f64a1/FFFFFF",
+  "img_text_lg": "Blu-ray+319xvariable+height",
+  "img_text_md": "Blu-ray+280xvariable+height",
+  "img_text_sm": "Blu-ray+280xvariable+height",
+  "retailer_format": "Blu-ray",
+  "retailer_format_class": "bluray",
+  "promo_id": 1,
+  "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+},
+"format_dvd": {
+  "is_dvd": "true",
+  "wrapper_id": "field_format_wrapper--2",
+  "format": "DVD",
+  "format_image_id": "2",
+  "accordion_id": "accordion--2",
+  "picture_class": "picture-format-image-2",
+  "srcset_lg": "http://placehold.it/319x425/359b5e/FFFFFF",
+  "srcset_md": "http://placehold.it/280x373/359b5e/FFFFFF",
+  "srcset_sm": "http://placehold.it/280x373/359b5e/FFFFFF",
+  "img_fallback": "http://placehold.it/319x425/359b5e/FFFFFF",
+  "img_text_lg": "DVD+319xvariable+height",
+  "img_text_md": "DVD+280xvariable+height",
+  "img_text_sm": "DVD+280xvariable+height",
+  "retailer_format": "DVD",
+  "retailer_format_class": "dvd",
+  "promo_id": 1,
+  "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+},
+"format_digital_hd": {
+  "is_digital_hd": "true",
+  "wrapper_id": "field_format_wrapper--3",
+  "format": "Digital HD",
+  "format_image_id": "3",
+  "accordion_id": "accordion--3",
+  "picture_class": "picture-format-image-3",
+  "srcset_lg": "http://placehold.it/319x425/942f87/FFFFFF",
+  "srcset_md": "http://placehold.it/280x373/942f87/FFFFFF",
+  "srcset_sm": "http://placehold.it/280x373/942f87/FFFFFF",
+  "img_fallback": "http://placehold.it/319x425/942f87/FFFFFF",
+  "img_text_lg": "Digital+HD+319xvariable+height",
+  "img_text_md": "Digital+HD+280xvariable+height",
+  "img_text_sm": "Digital+HD+280xvariable+height",
+  "retailer_format": "Digital HD",
+  "retailer_format_class": "digital_hd",
+  "promo_id": 1,
+  "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+},
+"format_ondemand": {
+  "is_ondemand": "true",
+  "wrapper_id": "field_format_wrapper--4",
+  "format": "On Demand",
+  "format_image_id": "4",
+  "accordion_id": "accordion--4",
+  "picture_class": "picture-format-image-4",
+  "srcset_lg": "http://placehold.it/319x425/f0b538/FFFFFF",
+  "srcset_md": "http://placehold.it/280x373/f0b538/FFFFFF",
+  "srcset_sm": "http://placehold.it/280x373/f0b538/FFFFFF",
+  "img_fallback": "http://placehold.it/319x425/f0b538/FFFFFF",
+  "img_text_lg": "On+Demand+319xvariable+height",
+  "img_text_md": "On+Demand+280xvariable+height",
+  "img_text_sm": "On+Demand+280xvariable+height",
+  "retailer_format": "On Demand",
+  "retailer_format_class": "ondemand",
+  "promo_id": 1,
+  "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+}
+,
+"02_promos_promo_banner": {
+  "panels_pane__section_classes": "panel-pane pane-entity-field",
+  "panels_pane__section_unique_class": "pane-node-field-promo-banner"
+}
+,
+"title_available_and_buy_now": {
+  "panels_pane__section_classes": "panel-pane panel-block",
+  "panels_pane__section_unique_class": "pane-title-buy-block",
+  "is_available_dhd": {
+    "retailer_format": "Digital HD",
+    "retailer_format_class": "digital_hd",
+    "promo_id": 1,
+    "retailer_overlay_title": "Marble Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+  },
+  "is_available_bluray": {
+    "retailer_format": "Blu-ray",
+    "retailer_format_class": "bluray",
+    "promo_id": 1,
+    "retailer_overlay_title": "Materiall Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+  },
+  "is_available_dvd": {
+    "retailer_format": "DVD",
+    "retailer_format_class": "dvd",
+    "promo_id": 1,
+    "retailer_overlay_title": "Materialle Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+  },
+  "is_available_ondemand": {
+    "retailer_format": "On Demand",
+    "retailer_format_class": "ondemand",
+    "promo_id": 1,
+    "retailer_overlay_title": "Hello Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+  }
+}
+,
+"title_info": {
+  "field_rating": [
+    {
+      "info_heading": "<header><h2 class=\"pane-title\">General Info</h2></header>",
+      "rating": "R"
+    }
+  ],
+  "field_genre": [
+    {
+      "genre": "<a href=\"#\">Action</a>"
+    },
+    {
+      "genre": "<a href=\"#\">Comedy</a>"
+    },
+    {
+      "genre": "<a href=\"#\">Dark Comedy</a>"
+    },
+    {
+      "genre": "<a href=\"#\">Thriller</a>"
+    }
+  ],
+  "field_synopsis": [
+    {
+      "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus enim non ante mattis, ac mattis mauris semper. Fusce blandit efficitur tincidunt. Aliquam turpis lectus, condimentum et velit quis, interdum pretium tellus. Praesent sagittis sapien nec quam malesuada, eu convallis enim aliquam. Fusce vel diam pharetra, eleifend orci sit amet, finibus mi. Sed tincidunt neque quam, non pulvinar orci dapibus non. In tristique dignissim lacus eget dictum. Vivamus non porta urna. Ut nibh tellus, mattis sed leo sed, vehicula faucibus justo. Cras tempor in ex non suscipit. Curabitur sit amet interdum mi, convallis finibus nulla. In eu commodo eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Etiam lorem ex, tempus dictum lorem ut, tempor faucibus nunc."
+    }
+  ],
+  "field_people": [
+    {
+      "person": "Jeff Bridges"
+    },
+    {
+      "person": "John Goodman"
+    },
+    {
+      "person": "Julianne Moore"
+    },
+    {
+      "person": "Steve Buscemi"
+    },
+    {
+      "person": "David Huddleston"
+    },
+    {
+      "person": "John Turturro"
+    },
+    {
+      "person": "Philip Seymour Hoffman"
+    },
+    {
+      "person": "Sam Elliott"
+    },
+    {
+      "person": "Tara Reid"
+    }
+  ],
+  "field_name_field_rating": {
+    "panels_pane__section_classes": "panel-pane pane-entity-field",
+    "panels_pane__section_unique_class": "pane-node-field-rating",
+    "field_classes": "field-type-list-text field-label-hidden",
+    "field_unique_class": "field-name-field-rating"
+  },
+  "field_name_field_genre": {
+    "panels_pane__section_classes": "panel-pane pane-entity-field",
+    "panels_pane__section_unique_class": "pane-node-field-genre",
+    "field_classes": "field-type-taxonomy-term-reference field-label-hidden",
+    "field_unique_class": "field-name-field-genre"
+  },
+  "field_name_body": {
+    "panels_pane__section_classes": "panel-pane pane-entity-field",
+    "panels_pane__section_unique_class": "pane-node-body title-synopsis",
+    "panels_pane__section_header?": true,
+    "panels_pane__section_title?": true,
+    "panels_pane__section_title": "Synopsis",
+    "field_classes": "field-type-text-with-summary field-label-hidden",
+    "field_unique_class": "field-name-body"
+  },
+  "field_name_field_people": {
+    "panels_pane__section_classes": "panel-pane pane-entity-field",
+    "panels_pane__section_unique_class": "pane-node-field-people",
+    "panels_pane__section_header?": true,
+    "panels_pane__section_title?": true,
+    "panels_pane__section_title": "Cast",
+    "field_classes": "field-type-field-collection field-label-hidden",
+    "field_unique_class": "field-name-field-people"
+  },
+  "field_collection_item_field_people": {
+    "entity_classes": "entity-field-collection-item",
+    "entity_unique_class": "field-collection-item-field-people"
+  },
+  "field_name_field_person": {
+    "field_classes": "field-type-entityreference field-label-hidden",
+    "field_unique_class": "field-name-field-person"
+  }
+}
+,
+"dynamic_leads": {
+  "back_dark_classes": "dl--back-dark",
+  "back_blur_classes": "dl--back-blur",
+  "panels_pane__section_classes": "panel-pane pane-views-panes",
+  "panels_pane__section_unique_class": "pane-dynamic-leads-panel-pane-1",
+  "views_view_classes": "view view-dynamic-leads view-id-dynamic_leads view-display-id-panel_pane_1 view-dom-id-2da59dc48652dffcf11e8e8cf4d3858e",
+  "entity_classes": "entity-queues",
+  "entity_unique_class": "queues-promos",
+  "dynamic_lead_items": [
+    {
+      "promo_id": 1,
+      "bg_img_blurred": "../../images/nosync/perfect_1_690x345-blur.jpg",
+      "bg_img_srcs": "{\"0\":\"../../images/nosync/perfect_1_690x345.jpg\", \"955\":\"../../images/nosync/perfect_1_940x470.jpg\"}",
+      "title_label": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic",
+      "when_available_dhd": "Now",
+      "when_available_disc": "Now",
+      "when_available_ond": "Now",
+      "is_available_all": true,
+      "is_available_dhd": {
+        "retailer_format": "Digital HD",
+        "retailer_format_class": "digital_hd",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      },
+      "is_available_bluray": {
+        "retailer_format": "Blu-ray",
+        "retailer_format_class": "blu_ray",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      },
+      "is_available_dvd": {
+        "retailer_format": "DVD",
+        "retailer_format_class": "dvd",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      },
+      "is_available_vod": {
+        "retailer_format": "On Demand",
+        "retailer_format_class": "ondemand",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      }
+    },
+    {
+      "no_title?": true,
+      "promo_id": 2,
+      "bg_img_blurred": "../../images/nosync/perfect_2_690x345-blur.jpg",
+      "bg_img_srcs": "{\"0\":\"../../images/nosync/perfect_2_690x345.jpg\", \"955\":\"../../images/nosync/perfect_2_940x470.jpg\"}"
+    },
+    {
+      "promo_id": 3,
+      "bg_img_blurred": "../../images/nosync/perfect_3_690x345-blur.jpg",
+      "bg_img_srcs": "{\"0\":\"../../images/nosync/perfect_3_690x345.jpg\", \"955\":\"../../images/nosync/perfect_3_940x470.jpg\"}",
+      "title_label": "Inverse",
+      "when_available_dhd": "Now",
+      "when_available_disc": "09/99",
+      "is_available_dhd": {
+        "retailer_format": "Digital HD",
+        "retailer_format_class": "digital_hd",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      },
+      "is_available_bluray": {
+        "retailer_format": "Blu-ray",
+        "retailer_format_class": "blu_ray",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      },
+      "is_available_dvd": {
+        "retailer_format": "DVD",
+        "retailer_format_class": "dvd",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      }
+    },
+    {
+      "no_title?": true,
+      "promo_id": 4,
+      "bg_img_blurred": "../../images/nosync/perfect_4_690x345-blur.jpg",
+      "bg_img_srcs": "{\"0\":\"../../images/nosync/perfect_4_690x345.jpg\", \"955\":\"../../images/nosync/perfect_4_940x470.jpg\"}"
+    },
+    {
+      "promo_id": 5,
+      "bg_img_blurred": "../../images/nosync/neighbores_hires_1_600-blur.jpg",
+      "bg_img_srcs": "{\"0\":\"../../images/nosync/neighbores_hires_1_600.jpg\", \"955\":\"../../images/nosync/neighbores_hires_1_1022.jpg\"}",
+      "title_label": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic",
+      "when_available_dhd": "Now",
+      "when_available_disc": "09/99",
+      "is_available_dhd": {
+        "retailer_format": "Digital HD",
+        "retailer_format_class": "digital_hd",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      },
+      "is_available_bluray": {
+        "retailer_format": "Blu-ray",
+        "retailer_format_class": "blu_ray",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      },
+      "is_available_dvd": {
+        "retailer_format": "DVD",
+        "retailer_format_class": "dvd",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      }
+    },
+    {
+      "no_title?": true,
+      "promo_id": 6,
+      "bg_img_blurred": "../../images/nosync/neighbores_hires_2_600-blur.jpg",
+      "bg_img_srcs": "{\"0\":\"../../images/nosync/neighbores_hires_2_600.jpg\", \"955\":\"../../images/nosync/neighbores_hires_2_1022.jpg\"}"
+    },
+    {
+      "promo_id": 7,
+      "bg_img_blurred": "../../images/nosync/neighbores_hires_3_600-blur.jpg",
+      "bg_img_srcs": "{\"0\":\"../../images/nosync/neighbores_hires_3_600.jpg\", \"955\":\"../../images/nosync/neighbores_hires_3_1022.jpg\"}",
+      "title_label": "Inverse",
+      "when_available_dhd": "Now",
+      "when_available_disc": "09/99",
+      "is_available_dhd": {
+        "retailer_format": "Digital HD",
+        "retailer_format_class": "digital_hd",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      },
+      "is_available_bluray": {
+        "retailer_format": "Blu-ray",
+        "retailer_format_class": "blu_ray",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      },
+      "is_available_dvd": {
+        "retailer_format": "DVD",
+        "retailer_format_class": "dvd",
+        "retailer_overlay_title": "Material Conditional: a Propositional Binary Connective Represented by \"->\" in Formal Logic"
+      }
+    },
+    {
+      "no_title?": true,
+      "promo_id": 8,
+      "bg_img_blurred": "../../images/nosync/neighbores_hires_4_600-blur.jpg",
+      "bg_img_srcs": "{\"0\":\"../../images/nosync/neighbores_hires_4_600.jpg\", \"955\":\"../../images/nosync/neighbores_hires_4_1022.jpg\"}"
+    }
+  ]
+}
+,
+"media_strip_downloads_and_games": {
+  "panels_pane__section_classes": "panel-pane pane-entity-field",
+  "panels_pane__section_unique_class": "pane-node-field-games-downloads",
+  "panels_pane__section_header?": true,
+  "panels_pane__section_title?": true,
+  "panels_pane__section_title": "Downloads and Games",
+  "play_icon": false,
+  "media_strip_class": "downloads-and-games-strip",
+  "media_strip": [
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false
+    },
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false
+    },
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false
+
+    },
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false 
+    },
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false
+    },
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false
+    },
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false
+    },
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false
+    },
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false
+    },
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false
+    },
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false
+    },
+    {
+      "img_src": "http://placehold.it/250x150/3279f2/FFFFFF",
+      "media_title": false
+    }
+  ]
+}
+,
+"media_strip_recent_videos": {
+  "panels_pane__section_classes": "panel-pane pane-views-panes",
+  "panels_pane__section_unique_class": "pane-recent-videos-panel-pane-1",
+  "views_view_classes": "view view-recent-videos view-id-recent_videos view-display-id-panel_pane_1 view-dom-id-f1ec6f039b22ccee468ebf4c2300d4f2",
+  "entity_classes": "entity-queues",
+  "entity_unique_class": "queues-videos",
+  "play_icon": true,
+  "video_title": true,
+  "media_strip": [
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "A Million Ways",
+      "video_label": "Save the Day"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "Quantum",
+      "video_label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in justo dictum, dapibus sem ut, tempor turpis. In hac habitasse platea dictumst. Sed vel sem ac ligula fringilla tempor et ut ante. Morbi dictum porttitor arcu. Proin sed diam dictum, gravida orci sed, malesuada dui. Maecenas metus nisi, facilisis ut velit at, euismod vulputate enim. Fusce varius rhoncus blandit. Sed a nunc at felis ultricies pretium eget vitae velit. Suspendisse accumsan viverra rhoncus."
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "video_label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in justo dictum, dapibus sem ut, tempor turpis. In hac habitasse platea dictumst. Sed vel sem ac ligula fringilla tempor et ut ante. Morbi dictum porttitor arcu. Proin sed diam dictum, gravida orci sed, malesuada dui. Maecenas metus nisi, facilisis ut velit at, euismod vulputate enim. Fusce varius rhoncus blandit. Sed a nunc at felis ultricies pretium eget vitae velit. Suspendisse accumsan viverra rhoncus."
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "Maw",
+      "video_label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in justo dictum, dapibus sem ut, tempor turpis. In hac habitasse platea dictumst. Sed vel sem ac ligula fringilla tempor et ut ante. Morbi dictum porttitor arcu. Proin sed diam dictum, gravida orci sed, malesuada dui. Maecenas metus nisi, facilisis ut velit at, euismod vulputate enim. Fusce varius rhoncus blandit. Sed a nunc at felis ultricies pretium eget vitae velit. Suspendisse accumsan viverra rhoncus."
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "Neighbor"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "video_label": "Save the Day"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "Neighbor",
+      "video_label": "Save the Day"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "Quantum",
+      "video_label": "Save the Day"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "video_label": "Save the Day"
+
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "video_label": "Save the Day"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "Neighbor",
+      "video_label": "Save the Day"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "title_label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "video_label": "Save the Day"
+    }
+  ]
+}
+,
+"media_strip_titles_page": {
+  "cbox": true,
+  "panels_pane__section_classes": "panel-pane pane-entity-field",
+  "panels_pane__section_unique_class": "pane-node-field-media-carousel",
+  "field_classes": "field field-name-field-media-carousel field-type-file field-label-hidden",
+  "media_strip": [
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "play_icon": true,
+      "video_label": "A Million Ways",
+      "video_src": "//localhost.localdomain/p/frKfDC/plVzaHXBdCJG/embed/select/brEbbks39U_6?autoPlay=true&amp;form=html"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "photo_src": "../../images/nosync/lucy_SL1500_.jpg"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "play_icon": true,
+      "video_label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis urna mauris, tempor vel nisl eget, vulputate fringilla risus.",
+      "video_src": "//localhost.localdomain/p/frKfDC/plVzaHXBdCJG/embed/select/brEbbks39U_6?autoPlay=true&amp;form=html"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "photo_src": "../../images/nosync/perfect_1_940x470.jpg"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "play_icon": true,
+      "video_label": "Neighbor",
+      "video_src": "//localhost.localdomain/p/frKfDC/plVzaHXBdCJG/embed/select/brEbbks39U_6?autoPlay=true&amp;form=html"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "photo_src": "../../images/nosync/lucy_SL1500_.jpg"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "play_icon": true,
+      "video_label": "Neighbor",
+      "video_src": "//localhost.localdomain/p/frKfDC/plVzaHXBdCJG/embed/select/brEbbks39U_6?autoPlay=true&amp;form=html"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "play_icon": true,
+      "video_label": "Quantum",
+      "video_src": "//localhost.localdomain/p/frKfDC/plVzaHXBdCJG/embed/select/brEbbks39U_6?autoPlay=true&amp;form=html"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "photo_src": "../../images/nosync/perfect_1_940x470.jpg"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "play_icon": true,
+      "video_label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "video_src": "//localhost.localdomain/p/frKfDC/plVzaHXBdCJG/embed/select/brEbbks39U_6?autoPlay=true&amp;form=html"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "photo_src": "../../images/nosync/lucy_SL1500_.jpg"
+    },
+    {
+      "img_src": "http://placehold.it/150x150/cc99cc/FFFFFF",
+      "play_icon": true,
+      "video_label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "video_src": "//localhost.localdomain/p/frKfDC/plVzaHXBdCJG/embed/select/brEbbks39U_6?autoPlay=true&amp;form=html"
+    }
+  ]
+}
+,
+"available_now": {
+  "titleshub_name": "Available Now",
+  "titleshub_class": "available-now-strip",
+  "quicktabs": true,
+  "quicktabs_machine_name": "available_now",
+  "quicktabs_url_name": "available-now",
+  "panels_pane__section_classes": "panel-pane pane-block",
+  "panels_pane__section_unique_class": "pane-quicktabs-available-now",
+  "item_title": true,
+  "item_title_link": true,
+  "block_classes": "block block-title",
+  "block_id": "block-title-available-now-movies"
+}
+,
+"favorites": {
+  "titleshub_name": "Favorites",
+  "titleshub_class": "favorites-strip",
+  "title_strip_format": false,
+  "quicktabs": true,
+  "quicktabs_machine_name": "favorites",
+  "quicktabs_url_name": "favorites",
+  "panels_pane__section_classes": "panel-pane pane-block",
+  "panels_pane__section_unique_class": "pane-quicktabs-favorites",
+  "item_title": true,
+  "item_title_link": true,
+  "block_id": "block-views-324892834"
+}
+,
+"field_seasons": {
+  "field_classes": "field-type-entityreference field-label-hidden collapse-up",
+  "field_unique_class": "field-name-field-sequels",
+  "titleshub_class": "sequels--strip"
+}
+,
+"field_sequels": {
+  "field_classes": "field-type-entityreference field-label-hidden collapse-up",
+  "field_unique_class": "field-name-field-sequels",
+  "titleshub_class": "sequels--strip"
+}
+,
+"you_may_also_like": {
+  "section_title": "You May Also Like",
+  "titleshub_class": "you-may-also-like--strip"
+}
+,
+"title_strip_format": true,
+"titles_strip": {
+  "item_title": true,
+  "item_title_link": true,
+  "picture_class": "titles-strip--image",
+  "srcset_lg": "http://placehold.it/125x175/3279f2/FFFFFF",
+  "srcset_md": "http://placehold.it/125x175/3279f2/FFFFFF",
+  "srcset_sm": "http://placehold.it/164x230/79f232/FFFFFF",
+  "img_fallback": "http://placehold.it/125x175/32f279/FFFFFF",
+  "titles_strip_items": [
+    {
+      "srcset_lg": "http://placehold.it/125x200/3279f2/FFFFFF",
+      "srcset_md": "http://placehold.it/125x200/3279f2/FFFFFF",
+      "srcset_sm": "http://placehold.it/164x262/79f232/FFFFFF",
+      "img_fallback": "http://placehold.it/125x200/32f279/FFFFFF",
+      "title_label": "Short Movie Label",
+      "title_formats": [
+        {
+          "title_format": "Digital HD",
+          "format_first": true
+        },
+        {
+          "title_format": "BLU-RAY"
+        },
+        {
+          "title_format": "DVD"
+        },
+        {
+          "title_format": "On Demand",
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "srcset_lg": "http://placehold.it/125x150/3279f2/FFFFFF",
+      "srcset_md": "http://placehold.it/125x150/3279f2/FFFFFF",
+      "srcset_sm": "http://placehold.it/164x197/79f232/FFFFFF",
+      "img_fallback": "http://placehold.it/125x150/32f279/FFFFFF",
+      "title_label": "Long Movie Label Long Movie Label Long Movie Label",
+      "title_formats": [
+        {
+          "title_format": "BLU-RAY",
+          "format_first": true
+        },
+        {
+          "title_format": "DVD"
+        },
+        {
+          "title_format": "On Demand",
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Extremely Long Movie Label Extremely Long Movie Label Extremely Long Movie Label Extremely Long Movie Label",
+      "title_formats": [
+        {
+          "title_format": "DVD",
+          "format_first": true
+        },
+        {
+          "title_format": "On Demand",
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Short Movie Label",
+      "title_formats": [
+        {
+          "title_format": "On Demand",
+          "format_first": true,
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Long Movie Label Long Movie Label Long Movie Label",
+      "title_formats": [
+        {
+          "title_format": "Digital HD",
+          "format_first": true
+        },
+        {
+          "title_format": "BLU-RAY"
+        },
+        {
+          "title_format": "DVD",
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Extremely Long Movie Label Extremely Long Movie Label Extremely Long Movie Label Extremely Long Movie Label",
+      "title_formats": [
+        {
+          "title_format": "Digital HD",
+          "format_first": true
+        },
+        {
+          "title_format": "DVD"
+        },
+        {
+          "title_format": "On Demand",
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Short Movie Label",
+      "title_formats": [
+        {
+          "title_format": "Digital HD",
+          "format_first": true
+        },
+        {
+          "title_format": "BLU-RAY"
+        },
+        {
+          "title_format": "On Demand",
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Long Movie Label Long Movie Label Long Movie Label",
+      "title_formats": [
+        {
+          "title_format": "Digital HD",
+          "format_first": true
+        },
+        {
+          "title_format": "BLU-RAY",
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Extremely Long Movie Label Extremely Long Movie Label Extremely Long Movie Label Extremely Long Movie Label",
+      "title_formats": [
+        {
+          "title_format": "Digital HD",
+          "format_first": true
+        },
+        {
+          "title_format": "DVD",
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Short Movie Label",
+      "title_formats": [
+        {
+          "title_format": "Digital HD",
+          "format_first": true
+        },
+        {
+          "title_format": "On Demand",
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Long Movie Label Long Movie Label Long Movie Label",
+      "title_formats": [
+        {
+          "title_format": "BLU-RAY",
+          "format_first": true
+        },
+        {
+          "title_format": "DVD",
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Extremely Long Movie Label Extremely Long Movie Label Extremely Long Movie Label Extremely Long Movie Label",
+      "title_formats": [
+        {
+          "title_format": "BLU-RAY",
+          "format_first": true
+        },
+        {
+          "title_format": "On Demand",
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Short Movie Label",
+      "title_formats": [
+        {
+          "title_format": "Digital HD",
+          "format_first": true,
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Long Movie Label Long Movie Label Long Movie Label",
+      "title_formats": [
+        {
+          "title_format": "BLU-RAY",
+          "format_last": true,
+          "format_last": true
+        }
+      ]
+    },
+    {
+      "title_label": "Extremely Long Movie Label Extremely Long Movie Label Extremely Long Movie Label Extremely Long Movie Label",
+      "title_formats": [
+        {
+          "title_format": "DVD",
+          "format_last": true,
+          "format_last": true
+        }
+      ]
+    }
+  ]
+}
+,
+"02_social_facebook_stream": {
+  "panels_pane__section_classes": "panel-pane pane-block",
+  "panels_pane__section_unique_class": "pane-social-facebook-stream",
+  "panels_pane__section_header?": true,
+  "panels_pane__section_title?": true,
+  "panels_pane__section_title": "Facebook"
+}
+,
+"pane_freeform": {
+  "pane_classes": "panel-pane pane-views panel-pane pane-social-page-freeform-content",
+  "views_view_classes": "view view-social-page-freeform-content view-id-social_page_freeform_content view-display-id-default view-dom-id-a945b34e2dc8561a9f91436a30bbc4db"
+}
+,
+"social_pane": {
+  "panels_pane__section_classes": "panel-pane pane-block",
+  "panels_pane__section_unique_class": "pane-menu-menu-social",
+  "panels_pane__section_header?": true,
+  "panels_pane__section_title?": true,
+  "panels_pane__section_title": "Social",
+  "social_links": [
+    {
+      "social_link_class": "first",
+      "social_url": "#facebook.com",
+      "social_network": "Facebook"
+    },
+    {
+      "social_url": "#twitter.com",
+      "social_network": "Twitter"
+    },
+    {
+      "social_url": "#google.com",
+      "social_network": "Google+"
+    },
+    {
+      "social_url": "#instagram.com",
+      "social_network": "Instagram"
+    },
+    {
+      "social_url": "#youtube.com",
+      "social_network": "YouTube"
+    },
+    {
+      "social_link_class": "last",
+      "social_url": "#tumblr.com",
+      "social_network": "Tumblr"
+    }
+  ]
+}
+,
+"pane_poll": {
+  "pane_classes": "panel-pane pane-views-panes pane-poll-panel-pane-1",
+  "views_view_classes": "view view-poll view-id-poll view-display-id-panel_pane_1 view-dom-id-7992f5af180de8e84a4bb99a929b14e6"
+}
+,
+"pane_quiz": {
+  "pane_classes": "panel-pane pane-views-panes pane-quiz-panel-pane-1",
+  "views_view_classes": "view view-quiz view-id-quiz view-display-id-panel_pane_1 view-dom-id-b3b24783ff671690ad2ab85265a93c0f"
+}
+,
+"02_sections_stay_connected": {
+  "panels_pane__section_classes": "panel-pane pane-entity-field",
+  "panels_pane__section_unique_class": "pane-node-field-stay-connected",
+  "header_class": "field-label",
+  "section_title_social": "Stay Connected",
+  "social_links": [
+    {
+      "social_url": "#uphe.com/news",
+      "social_network": ""
+    },
+    {
+      "social_url": "#facebook.com",
+      "social_network": ""
+    },
+    {
+      "social_url": "#twitter.com",
+      "social_network": ""
+    },
+    {
+      "social_url": "#instagram.com",
+      "social_network": ""
+    },
+    {
+      "social_url": "#google.com",
+      "social_network": ""
+    },
+    {
+      "social_url": "#tumblr.com",
+      "social_network": ""
+    }
+  ]
+}
+,
+  "$background_height_sm": "70.5",
+  "$background_height_md": "58.5",
+  "$background_height_lg": "67.5",
+  "$banner_ad_height_lg": "9",
+  "$banner_ad_height_sm": "6",
+  "$bp_sm_max": "720",
+  "$bp_md_min": "721",
+  "$bp_md_max": "954",
+  "$bp_lg_min": "955",
+  "$header_default_bg_height": "48",
+  "$header_height": "8",
+  "$header_height_sm": "3.9",
+  "$header_usermenu_height": "11.5",
+  "$carousel_height": "62.8 + $header_usermenu_height",
+  "$carousel_height_tablet": "50 + $header_usermenu_height",
+  "$identity_ui_height_sm": "3",
+  "$title_page_default_bg_extend": "8.5",
+  "$title_page_default_bg_shadow_height": "9",
+  "$title_page_slider_bg_extend": "13.3"
+}

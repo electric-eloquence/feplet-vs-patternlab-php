@@ -1,0 +1,102 @@
+{
+  "h1_logo_alt": "The Complete Series",
+  "page_title?": true,
+  "page_title": "The Complete Series",
+  "title_name": "The Complete Series",
+  "02_accordions_format_editions_movie?": false,
+  "02_accordions_format_editions_tv?": true,
+  "02_accordions_complete_series?": true,
+  "02_accordions_format_features?": false,
+  "poster_art": {
+    "panels_pane__section_classes": "panel-pane pane-entity-field",
+    "panels_pane__section_unique_class": "pane-node-field-poster-art",
+    "srcset_lg": "../../images/nosync/season-7-344x480.jpg",
+    "srcset_md": "../../images/nosync/season-7-203x283.jpg",
+    "srcset_sm": "../../images/nosync/season-7-140x195.jpg",
+    "img_fallback": "../../images/nosync/season-7-344x480.jpg"
+  },
+  "title_info": {
+    "field_name_field_rating": {
+      "field_rating": false
+    },
+    "field_name_field_genre": {
+      "panels_pane__section_classes": "panel-pane pane-entity-field",
+      "panels_pane__section_unique_class": "pane-node-field-genre",
+      "field_classes": "field-type-taxonomy-term-reference field-label-hidden",
+      "field_unique_class": "field-name-field-genre",
+      "field_genre": [
+        {
+          "info_heading": "<header><h2 class=\"pane-title\">General Info</h2></header>",
+          "genre": "<a href=\"#\">Action</a>"
+        },
+        {
+          "genre": "<a href=\"#\">Comedy</a>"
+        },
+        {
+          "genre": "<a href=\"#\">Dark Comedy</a>"
+        },
+        {
+          "genre": "<a href=\"#\">Thriller</a>"
+        }
+      ]
+    },
+    "field_name_body": {
+      "panels_pane__section_classes": "panel-pane pane-entity-field",
+      "panels_pane__section_unique_class": "pane-node-body title-synopsis",
+      "panels_pane__section_header?": true,
+      "panels_pane__section_title?": true,
+      "panels_pane__section_title": "Synopsis",
+      "field_classes": "field-type-text-with-summary field-label-hidden",
+      "field_unique_class": "field-name-body",
+      "field_synopsis": [
+        {
+          "synopsis": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in justo dictum, dapibus sem ut, tempor turpis. In hac habitasse platea dictumst. Sed vel sem ac ligula fringilla tempor et ut ante. Morbi dictum porttitor arcu. Proin sed diam dictum, gravida orci sed, malesuada dui. Maecenas metus nisi, facilisis ut velit at, euismod vulputate enim. Fusce varius rhoncus blandit. Sed a nunc at felis ultricies pretium eget vitae velit. Suspendisse accumsan viverra rhoncus.</p>"
+        }
+      ]
+    },
+    "field_name_field_people": {
+      "panels_pane__section_classes": "panel-pane pane-entity-field",
+      "panels_pane__section_unique_class": "pane-node-field-people",
+      "panels_pane__section_header?": true,
+      "panels_pane__section_title?": true,
+      "panels_pane__section_title": "Cast",
+      "field_classes": "field-type-field-collection field-label-hidden",
+      "field_unique_class": "field-name-field-people",
+      "field_collection_item_field_people": {
+        "entity_classes": "entity-field-collection-item",
+        "entity_unique_class": "field-collection-item-field-people",
+        "field_name_field_person": {
+          "field_classes": "field-type-entityreference field-label-hidden",
+          "field_unique_class": "field-name-field-person"
+        }
+      },
+      "field_people": [
+        {
+          "person": "tincidunt porttitor"
+        },
+        {
+          "person": "lectus eget"
+        },
+        {
+          "person": "nulla facilisi"
+        },
+        {
+          "person": "quisque nec"
+        },
+        {
+          "person": "sem volutpat"
+        },
+        {
+          "person": "finibus augue"
+        },
+        {
+          "person": "luctus tellus"
+        },
+        {
+          "person": "integer nulla "
+        }
+      ]
+    }
+  },
+  "field_sequels": false
+}

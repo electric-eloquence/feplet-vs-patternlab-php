@@ -1,0 +1,31 @@
+{
+  "header_nav_list_items": [
+    {
+      "nav_list_item": "Movies",
+      "classes": "first"
+    },
+    {
+      "nav_list_item": "TV"
+    },
+    {
+      "nav_list_item": "Video"
+    },
+    {
+      "nav_list_item": "Social"
+    },
+    {
+      "nav_list_item": "News"
+    },
+    {
+      "nav_list_item": "Redeem Digital"
+    },
+    {
+      "nav_list_item": "My Collection"
+    },
+    {
+      "nav_list_item": "Discover",
+      "classes": "last expanded",
+      "has_submenu?": true
+    }
+  ]
+}

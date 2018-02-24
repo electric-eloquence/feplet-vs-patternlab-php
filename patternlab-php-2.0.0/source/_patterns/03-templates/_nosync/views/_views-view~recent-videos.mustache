@@ -1,0 +1,15 @@
+<div class="view view-videos view-id-videos">
+
+  {{> molecules-video-page-filters}}
+
+  {{#rows}}
+  <div class="view-content">
+    {{> molecules-video-item}}
+  </div>
+  {{/rows}}
+
+  {{#pager}}
+    {{> molecules-pager}}
+  {{/pager}}
+
+</div>
