@@ -1,6 +1,5 @@
 .*.swp
 .DS_Store
 config.ini
-latest-change.txt
 node_modules/
 public/
