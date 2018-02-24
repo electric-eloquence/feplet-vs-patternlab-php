@@ -1,83 +1,4 @@
 {
-"footer_menus": [
-  {
-    "nav_list_title": "Sites",
-    "nav_list_id": "block-menu-menu-footer-sites",
-    "nav_list_class": "block block-menu contextual-links-region",
-    "footer_nav_list_items": [
-      {
-        "nav_list_item": "Pictures"
-      },
-      {
-        "nav_list_item": "Orlando"
-      },
-      {
-        "nav_list_item": "Hollywood"
-      },
-      {
-        "nav_list_item": "BC"
-      },
-      {
-        "nav_list_item": "Digital Distribution Affiliates"
-      }
-    ]
-  },
-  {
-    "nav_list_title": "Learn More",
-    "nav_list_id": "block-menu-menu-footer-learn-more",
-    "nav_list_class": "block block-menu contextual-links-region",
-    "footer_nav_list_items": [
-      {
-        "nav_list_item": "UltraViolet™"
-      },
-      {
-        "nav_list_item": "Blu-ray™"
-      },
-      {
-        "nav_list_item": "How-to-order On Demand"
-      },
-      {
-        "nav_list_item": "Get On Demand"
-      }
-    ]
-  },
-  {
-    "nav_list_title": "Support",
-    "nav_list_id": "block-menu-menu-footer-support",
-    "nav_list_class": "block block-menu contextual-links-region",
-    "footer_nav_list_items": [
-      {
-        "nav_list_item": "Digital Copy FAQ"
-      },
-      {
-        "nav_list_item": "UltraViolet FAQ"
-      },
-      {
-        "nav_list_item": "Blu-ray FAQ"
-      },
-      {
-        "nav_list_item": "Blu-ray 3D FAQ"
-      },
-      {
-        "nav_list_item": "Contact Support"
-      }
-    ]
-  },
-  {
-    "nav_list_title": "Legal",
-    "nav_list_id": "block-menu-menu-footer-legal",
-    "nav_list_class": "block block-menu contextual-links-region",
-    "footer_nav_list_items": [
-      {
-        "nav_list_item": "Terms of Use"
-      },
-      {
-        "nav_list_item": "Privacy Policy"
-      }
-    ]
-  }
-]
-,
   "backend_serve_dir": "docroot/sites",
   "bg_img_blurred": "../../images/nosync/perfect_1_690x345-blur.jpg",
   "bg_img_srcs": "{\"0\":\"../../images/nosync/perfect_1_690x345.jpg\"}",
@@ -200,6 +121,85 @@
 "02_global_footer_suffix": {
   "region_classes": "region region-footer-suffix block-system-copyright"
 },
+"footer_menus": [
+  {
+    "nav_list_title": "Sites",
+    "nav_list_id": "block-menu-menu-footer-sites",
+    "nav_list_class": "block block-menu contextual-links-region",
+    "footer_nav_list_items": [
+      {
+        "nav_list_item": "Pictures"
+      },
+      {
+        "nav_list_item": "Orlando"
+      },
+      {
+        "nav_list_item": "Hollywood"
+      },
+      {
+        "nav_list_item": "BC"
+      },
+      {
+        "nav_list_item": "Digital Distribution Affiliates"
+      }
+    ]
+  },
+  {
+    "nav_list_title": "Learn More",
+    "nav_list_id": "block-menu-menu-footer-learn-more",
+    "nav_list_class": "block block-menu contextual-links-region",
+    "footer_nav_list_items": [
+      {
+        "nav_list_item": "UltraViolet™"
+      },
+      {
+        "nav_list_item": "Blu-ray™"
+      },
+      {
+        "nav_list_item": "How-to-order On Demand"
+      },
+      {
+        "nav_list_item": "Get On Demand"
+      }
+    ]
+  },
+  {
+    "nav_list_title": "Support",
+    "nav_list_id": "block-menu-menu-footer-support",
+    "nav_list_class": "block block-menu contextual-links-region",
+    "footer_nav_list_items": [
+      {
+        "nav_list_item": "Digital Copy FAQ"
+      },
+      {
+        "nav_list_item": "UltraViolet FAQ"
+      },
+      {
+        "nav_list_item": "Blu-ray FAQ"
+      },
+      {
+        "nav_list_item": "Blu-ray 3D FAQ"
+      },
+      {
+        "nav_list_item": "Contact Support"
+      }
+    ]
+  },
+  {
+    "nav_list_title": "Legal",
+    "nav_list_id": "block-menu-menu-footer-legal",
+    "nav_list_class": "block block-menu contextual-links-region",
+    "footer_nav_list_items": [
+      {
+        "nav_list_item": "Terms of Use"
+      },
+      {
+        "nav_list_item": "Privacy Policy"
+      }
+    ]
+  }
+]
+,
 "format_features_data": {
   "format_edition_headline": "Special Edition",
   "format_edition_subheadline": "Blu-ray + DVD + Digital Copy",
