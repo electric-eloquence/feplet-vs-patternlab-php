@@ -2,31 +2,47 @@
 
 On a high level, this is a Node.js vs. PHP comparison. However, this sort of 
 comparison never compares apples to apples. Going a bit lower, we can compare 
-two projects that, when receiving identical inputs, will return nearly identical 
-outputs. We can then concern ourselves with only the most basic of benchmarks: 
-processing speed and memory consumption.
+two applications that, when receiving identical inputs, will return nearly 
+identical outputs. We can then concern ourselves with only the most basic of 
+benchmarks: processing speed and memory consumption. But since we don't know 
+how these applications work under the hood, we again, cannot do an even 
+comparison of Node.js and PHP.
+
+But what we _can_ try to determine, is when considering what tools to use for 
+building a pattern library, processing large amounts of template data:
+
+* Whether to stay within the Node.js runtime environment, and use an obscure 
+software package for this purpose
+
+\- OR -
+
+* Whether to bring on an additional runtime environment, and all the overhead 
+that will encur, primarily because the better known software package works in 
+this environment.
 
 ### Background
 
-Feplet is the template engine which powers 
-<a href="https://github.com/electric-eloquence/fepper#readme" target="_blank">Fepper, a frontend prototyper</a>, 
+Feplet is the Node.js template engine which powers 
+<a href="https://github.com/electric-eloquence/fepper#readme" target="_blank">Fepper</a>, 
 which implements the Pattern Lab UI. The Pattern Lab UI cannot receive enough 
 acolades and superlatives for its utility at the tasks of organizing reusable 
 markup patterns, and making them accessible to developers and designers.
 
-However, those wishing to stay in the Pattern Lab ecosystem will find that its 
-runtime environment is best implemented with the PHP version of Pattern Lab. A 
-Node.js version of Pattern Lab exists, but its functionality is too limited for 
-power usage. (More on that later, if you're interested.)
+However, those wishing to stay in the Pattern Lab ecosystem (i.e. not opting for 
+Fepper, or similar independent project) will find that the PHP version of 
+Pattern Lab provides the best experience. A Node.js version of Pattern Lab 
+exists, but its functionality is too limited for power usage. (More on that 
+later, if you're interested.)
 
 Given that frontend developers and coding designers are certain to work in 
-JavaScript (and probably Node.js), it is reasonable to assume that they'd want 
-to stay within that ecosystem, unless there's a mandate or a drive of curiosity 
-to venture beyond it. We're only concerned with what could impart the mandate:
+JavaScript (and probably Node.js), it is reasonable to assume that they don't  
+automatically want to bring on another runtime environment. They'd generally 
+need a mandate or a drive of curiosity to venture beyond Node.js. We're only 
+concerned with what could impart the mandate:
 
-* The Node.js version isn't up to the task
-* The Node.js version is too slow
-* The Node.js version consumes too much memory 
+* The Node.js application isn't up to the task
+* The Node.js application is too slow
+* The Node.js application consumes too much memory 
 
 ### Versions
 
@@ -60,7 +76,11 @@ version of Pattern Lab.
 ### Tests
 
 This Feplet/Fepper vs. Pattern Lab comparison really just tests their abilities 
-at compiling and rendering templates — lots of them.
+at compiling and rendering templates — lots of them. At heart, this is really 
+just a template engine benchmark test. Pattern Lab for PHP brilliantly extends 
+Mustache functionality, and is the sole source of inspiration for Feplet. The 
+already mentioned Pattern Lab UI doesn't consume much time or resources in these 
+builds, and can basically be ignored in these tests.
 
 ### Benchmarks
 
