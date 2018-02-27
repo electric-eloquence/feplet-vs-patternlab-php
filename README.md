@@ -107,13 +107,13 @@ Averages of ten runs:
 
 #### Pattern Lab 1.1.0 for PHP 5.6.33
 
-* Time: 1.541 sec
-* Memory: 3.793 sec
+* Time: 3.005 sec
+* Memory: 67.5 MB
 
 #### Pattern Lab 2.0.0 for PHP 5.6.33
 
-* Time: 1.541 sec
-* Memory: 3.793 sec
+* Time: 6.132 sec
+* Memory: 67.7MB
 
 #### Pattern Lab 1.0.0 for PHP 7.2.2
 
