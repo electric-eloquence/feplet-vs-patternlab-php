@@ -12,17 +12,17 @@ But what we _can_ try to determine, is when considering what tools to use for
 building a pattern library, processing large amounts of template data:
 
 * Whether to stay within the Node.js runtime environment, and use an obscure 
-software package for this purpose
+application for this purpose
 
 \- OR -
 
 * Whether to bring on an additional runtime environment, and all the overhead 
-that will encur, primarily because the better known software package works in 
-this environment.
+that will encur, primarily because the better known application works in this 
+environment.
 
 ### Background
 
-<a href="https://github.com/electric-eloquence/feplet#readme" target="_blank">Feplet</a> 
+<a href="https://github.com/electric-eloquence/feplet" target="_blank">Feplet</a> 
 is the Node.js template engine which powers 
 <a href="http://fepper.io" target="_blank">Fepper</a>, which implements the 
 Pattern Lab UI. The Pattern Lab UI cannot receive enough acolades and 
@@ -30,16 +30,16 @@ superlatives for its utility at the tasks of organizing reusable markup
 patterns, and making them accessible to developers and designers.
 
 However, those wishing to stay in the Pattern Lab ecosystem (i.e. not opting for 
-Fepper, or similar independent project) will find that the PHP version of 
+Fepper, or similar independent application) will find that the PHP version of 
 Pattern Lab provides the best experience. A Node.js version of Pattern Lab 
 exists, but its functionality is too limited for power usage. (More on that 
 later, if you're interested.)
 
 Given that frontend developers and coding designers are certain to work in 
-JavaScript (and probably Node.js), it is reasonable to assume that they don't  
+JavaScript (and probably Node.js), it is reasonable to assume that they don't 
 automatically want to bring on another runtime environment. They'd generally 
-need a mandate or a drive of curiosity to venture beyond Node.js. We're only 
-concerned with what could impart the mandate:
+need a mandate or a drive of curiosity to expand beyond Node.js for a given 
+project. We're only concerned with what could impart the mandate:
 
 * The Node.js application isn't up to the task
 * The Node.js application is too slow
@@ -47,9 +47,12 @@ concerned with what could impart the mandate:
 
 ### Versions
 
-* Fepper (main project): 0.4.2
-* Fepper-NPM: 0.25.5
-* Feplet: 0.1.1
+* <a href="https://github.com/electric-eloquence/fepper" target="_blank">Fepper (main project)</a>:
+  0.4.2
+* <a href="https://github.com/electric-eloquence/fepper-npm" target="_blank">Fepper-NPM</a>:
+  0.25.5
+* <a href="https://github.com/electric-eloquence/feplet" target="_blank">Feplet</a>:
+  0.1.1
 * Pattern Lab: 1.0.0
 * Pattern Lab: 1.1.0
 * Pattern Lab: 2.0.0
@@ -79,9 +82,14 @@ version of Pattern Lab.
 This Feplet/Fepper vs. Pattern Lab comparison really just tests their abilities 
 at compiling and rendering templates — lots of them. At heart, this is really 
 just a template engine benchmark test. Pattern Lab for PHP brilliantly extends 
-Mustache functionality, and is the sole source of inspiration for Feplet. The 
-already mentioned Pattern Lab UI doesn't consume much time or resources in these 
-builds, and can basically be ignored in these tests.
+Mustache functionality, and is the sole source of inspiration for Feplet. 
+
+The templates to be compiled and rendered are in the `source` directory under 
+each respective application. The directories are identical. They each contain 
+271 template files, and 77 JSON data files.
+
+Building the Pattern Lab UI doesn't consume much time or resources in these 
+tests, and can basically be ignored.
 
 ### Benchmarks
 
@@ -120,6 +128,8 @@ node handlebars/run-7.js
 node feplet/run-no-cond.js
 node handlebars/run-no-cond.js
 ```
+
+### Footnotes
 
 Feplet and Fepper are independent of Pattern Lab, organizationally and socially. 
 Feplet and Fepper implement the inventions of others, and hopefully add enough 
