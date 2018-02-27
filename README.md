@@ -97,13 +97,13 @@ Averages of ten runs:
 
 #### Feplet/Fepper
 
-* Time: 0.575 sec
-* Memory: 1.272 sec
+* Time: 2.149 sec
+* Memory: 36.301 MB
 
 #### Pattern Lab 1.0.0 for PHP 5.6.33
 
-* Time: 1.541 sec
-* Memory: 3.793 sec
+* Time: 2.969 sec
+* Memory: 67.5 MB
 
 #### Pattern Lab 1.1.0 for PHP 5.6.33
 
@@ -117,18 +117,18 @@ Averages of ten runs:
 
 #### Pattern Lab 1.0.0 for PHP 7.2.2
 
-* Time: 4.044 sec
-* Memory: 10.734 sec
+* Time: 1.204 sec
+* Memory: 65.55 MB
 
 #### Pattern Lab 1.1.0 for PHP 7.2.2
 
-* Time: 4.044 sec
-* Memory: 10.734 sec
+* Time: 1.238 sec
+* Memory: 65.64 MB
 
 #### Pattern Lab 2.0.0 for PHP 7.2.2
 
-* Time: 4.044 sec
-* Memory: 10.734 sec
+* Time: 1.151 sec
+* Memory: 59.97 MB
 
 ### Analysis
 
