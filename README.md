@@ -86,7 +86,7 @@ Mustache functionality, and is the sole source of inspiration for Feplet.
 
 The templates to be compiled and rendered are in the `source` directory under 
 each respective application. The directories are identical. They each contain 
-271 template files, and 77 JSON data files.
+270 template files, and 77 JSON data files.
 
 Building the Pattern Lab UI doesn't consume much time or resources in these 
 tests, and can basically be ignored.
@@ -95,25 +95,42 @@ tests, and can basically be ignored.
 
 Averages of ten runs:
 
-#### 5 patterns per pattern type
+#### Feplet/Fepper
 
-* Feplet: 0.575 sec
-* Handlebars: 1.272 sec
+* Time: 0.575 sec
+* Memory: 1.272 sec
 
-#### 6 patterns per pattern type
+#### Pattern Lab 1.0.0 for PHP 5.6.33
 
-* Feplet: 1.541 sec
-* Handlebars: 3.793 sec
+* Time: 1.541 sec
+* Memory: 3.793 sec
 
-#### 7 patterns per pattern type
+#### Pattern Lab 1.1.0 for PHP 5.6.33
 
-* Feplet: 4.044 sec
-* Handlebars: 10.734 sec
+* Time: 1.541 sec
+* Memory: 3.793 sec
 
-#### No conditional logic
+#### Pattern Lab 2.0.0 for PHP 5.6.33
 
-* Feplet: 0.437 sec
-* Handlebars: 0.579 sec
+* Time: 1.541 sec
+* Memory: 3.793 sec
+
+#### Pattern Lab 1.0.0 for PHP 7.2.2
+
+* Time: 4.044 sec
+* Memory: 10.734 sec
+
+#### Pattern Lab 1.1.0 for PHP 7.2.2
+
+* Time: 4.044 sec
+* Memory: 10.734 sec
+
+#### Pattern Lab 2.0.0 for PHP 7.2.2
+
+* Time: 4.044 sec
+* Memory: 10.734 sec
+
+### Analysis
 
 ### Do It Yourself
 
@@ -127,6 +144,10 @@ node feplet/run-7.js
 node handlebars/run-7.js
 node feplet/run-no-cond.js
 node handlebars/run-no-cond.js
+
+# To output the memory used by Fepper, set debug=true in patternlab-config.json.
+# Do not leave debug=true while running speed tests, as this will greatly slow
+# things down.
 ```
 
 ### Footnotes
