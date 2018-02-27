@@ -22,11 +22,12 @@ this environment.
 
 ### Background
 
-Feplet is the Node.js template engine which powers 
-<a href="https://github.com/electric-eloquence/fepper#readme" target="_blank">Fepper</a>, 
-which implements the Pattern Lab UI. The Pattern Lab UI cannot receive enough 
-acolades and superlatives for its utility at the tasks of organizing reusable 
-markup patterns, and making them accessible to developers and designers.
+<a href="https://github.com/electric-eloquence/feplet#readme" target="_blank">Feplet</a> 
+is the Node.js template engine which powers 
+<a href="http://fepper.io" target="_blank">Fepper</a>, which implements the 
+Pattern Lab UI. The Pattern Lab UI cannot receive enough acolades and 
+superlatives for its utility at the tasks of organizing reusable markup 
+patterns, and making them accessible to developers and designers.
 
 However, those wishing to stay in the Pattern Lab ecosystem (i.e. not opting for 
 Fepper, or similar independent project) will find that the PHP version of 
