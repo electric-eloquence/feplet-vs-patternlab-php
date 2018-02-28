@@ -44,9 +44,9 @@ automatically want to bring on another runtime environment. They'd generally
 need a mandate or a drive of curiosity to expand beyond Node.js for a given 
 project. We're only concerned with what could impart the mandate:
 
-* The Node.js application isn't up to the task
-* The Node.js application is too slow
-* The Node.js application consumes too much memory 
+* The Node.js application isn't up to the task.
+* The Node.js application is too slow.
+* The Node.js application consumes too much memory.
 
 ### Versions
 
