@@ -135,6 +135,36 @@ Averages of ten runs:
 
 ### Analysis
 
+When compared against PHP 5.6.33, Node.js performs admirably. This is generally 
+true for synchronous brute calculation tests, and can be verified by the top 
+Internet search results in older benchmark tests. This is not the case against 
+PHP 7.2.2, and PHP >= 7 in general. However, developers generally do not choose 
+Node.js for speed alone.
+
+But compiling and rendering templates is purely synchronous, and is effectively 
+brute calculations. There is indeed a strong case to bring on the PHP >= 7 
+runtime environment, so developers can use Pattern Lab, even if they need to 
+couple that with an already existing Node.js stack.
+
+But understand the overhead you'll take on if you go this route. Assuming you 
+access the Pattern Lab API through Node.js, this API is exposed via your OS's 
+shell. (Windows? Mac? Linux? Other Unix-like?) You will need to make shell 
+calls in Node.js. Even if cross-platform shell calls are not a problem, it is 
+nowhere near as snug a fit as directly requiring a JS module, and configuring 
+your instances as you see fit.
+
+There are also unexpected consequences of installing PHP in the first place. 
+These tests were conducted in Ubuntu. These commands were used for the install:
+
+```bash
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
+sudo apt-get install php5.6
+```
+
+We did indeed get PHP 5.6.33 (and PHP 7.2.2 on another virtual machine), but we 
+also got Apache2. Not only that, Apache2 was running and listening on port 80.
+
 ### Do It Yourself
 
 ```bash
