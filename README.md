@@ -12,7 +12,7 @@ But what we _can_ try to determine, is when considering what tools to use for
 building a pattern library, processing large amounts of template data:
 
 * Whether to stay within the Node.js runtime environment, and use an obscure 
-application for this purpose
+application for this purpose.
 
 \- OR -
 
@@ -27,13 +27,16 @@ is the Node.js template engine which powers
 <a href="http://fepper.io" target="_blank">Fepper</a>, which implements the 
 Pattern Lab UI. The Pattern Lab UI cannot receive enough acolades and 
 superlatives for its utility at the tasks of organizing reusable markup 
-patterns, and making them accessible to developers and designers.
+patterns, and making them accessible to developers and designers. When we refer 
+to the UI, we mean the client-side JavaScript, styles, and markup. The UI is 
+independent of these tests.
 
-However, those wishing to stay in the Pattern Lab ecosystem (i.e. not opting for 
-Fepper, or similar independent application) will find that the PHP version of 
-Pattern Lab provides the best experience. A Node.js version of Pattern Lab 
-exists, but its functionality is too limited for power usage. (More on that 
-later, if you're interested.)
+To compile and render the markup which will be displayed by the UI, we need a 
+runtime environment on the file system. Those opting to stay in the Pattern Lab 
+ecosystem (i.e. not opting for Fepper, or similar independent application) will 
+find that the PHP version provides the best Pattern Lab experience. A Node.js 
+version of Pattern Lab exists, but its functionality is too limited for power 
+usage. (More on that later, if you're interested.)
 
 Given that frontend developers and coding designers are certain to work in 
 JavaScript (and probably Node.js), it is reasonable to assume that they don't 
@@ -85,7 +88,7 @@ just a template engine benchmark test. Pattern Lab for PHP brilliantly extends
 Mustache functionality, and is the sole source of inspiration for Feplet. 
 
 The templates to be compiled and rendered are in the `source` directory under 
-each respective application. The directories are identical. They each contain 
+each respective application. These directories are identical. They each contain 
 270 template files, and 77 JSON data files.
 
 Building the Pattern Lab UI doesn't consume much time or resources in these 
@@ -135,19 +138,19 @@ Averages of ten runs:
 ### Do It Yourself
 
 ```bash
-npm install
-node feplet/run-5.js
-node handlebars/run-5.js
-node feplet/run-6.js
-node handlebars/run-6.js
-node feplet/run-7.js
-node handlebars/run-7.js
-node feplet/run-no-cond.js
-node handlebars/run-no-cond.js
+cd fepper
+npm install # Only need to do this once.
+node node_modules/fepper/index.js ui:build
+cd ../patternlab-php-1.0.0
+php core/builder.php --generate
+cd ../patternlab-php-1.1.0
+php core/builder.php --generate
+cd ../patternlab-php-2.0.0
+php core/console --generate
 
-# To output the memory used by Fepper, set debug=true in patternlab-config.json.
-# Do not leave debug=true while running speed tests, as this will greatly slow
-# things down.
+# To output the memory used by Fepper, set "debug": true in patternlab-config.json.
+# Do not leave "debug": true while running speed tests, as this will slow things
+# down considerably.
 ```
 
 ### Footnotes
