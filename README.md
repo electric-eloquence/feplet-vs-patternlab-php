@@ -56,7 +56,6 @@ project. We're only concerned with what could impart the mandate:
   0.25.5
 * <a href="https://github.com/electric-eloquence/feplet" target="_blank">Feplet</a>:
   0.1.1
-* Pattern Lab: 1.0.0
 * Pattern Lab: 1.1.0
 * Pattern Lab: 2.0.0
 * Node.js: 8.9.1
@@ -65,7 +64,7 @@ project. We're only concerned with what could impart the mandate:
 
 Fepper-NPM and Feplet are dependencies of Fepper. They are parts of the whole.
 
-The three Pattern Lab versions are independent of each other and will be tested 
+The Pattern Lab versions are independent of each other and will be tested 
 separately as such.
 
 PHP will also be tested separately for versions 5.6.33 and 7.2.2, for each 
@@ -103,11 +102,6 @@ Averages of ten runs:
 * Time: 1.965 sec
 * Memory: 35.471 MB
 
-#### Pattern Lab 1.0.0 for PHP 5.6.33
-
-* Time: 2.969 sec
-* Memory: 67.5 MB
-
 #### Pattern Lab 1.1.0 for PHP 5.6.33
 
 * Time: 3.005 sec
@@ -117,11 +111,6 @@ Averages of ten runs:
 
 * Time: 6.132 sec
 * Memory: 67.7MB
-
-#### Pattern Lab 1.0.0 for PHP 7.2.2
-
-* Time: 1.204 sec
-* Memory: 65.55 MB
 
 #### Pattern Lab 1.1.0 for PHP 7.2.2
 
@@ -171,8 +160,6 @@ also got Apache2. Not only that, Apache2 was running and listening on port 80!
 cd fepper
 npm install # Only need to do this once.
 node node_modules/fepper/index.js ui:build
-cd ../patternlab-php-1.0.0
-php core/builder.php --generate
 cd ../patternlab-php-1.1.0
 php core/builder.php --generate
 cd ../patternlab-php-2.0.0
