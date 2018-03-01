@@ -1,0 +1,11 @@
+{
+  "description": "",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "help": "node ./scripts/help.js",
+    "postinstall": "cd lib/patternlab-node && npm install"
+  },
+  "dependencies": {
+    "patternengine-node-mustache": "^1.0.0"
+  }
+}

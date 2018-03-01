@@ -1,0 +1,88 @@
+{
+  "_from": "patternlab-node@2.12.0",
+  "_id": "patternlab-node@2.12.0",
+  "_inBundle": false,
+  "_integrity": "sha1-AuxuLjLxwa0s7ls0rwNErBIeVQs=",
+  "_location": "/patternlab-node",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "patternlab-node@2.12.0",
+    "name": "patternlab-node",
+    "escapedName": "patternlab-node",
+    "rawSpec": "2.12.0",
+    "saveSpec": null,
+    "fetchSpec": "2.12.0"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/patternlab-node/-/patternlab-node-2.12.0.tgz",
+  "_shasum": "02ec6e2e32f1c1ad2cee5b34af0344ac121e550b",
+  "_spec": "patternlab-node@2.12.0",
+  "_where": "/Users/ee/Sites/Vagrant/Trusty64/VHosts/electric-eloquence/feplet-vs-patternlab-php/patternlab-node-2.12.0",
+  "author": {
+    "name": "Brian Muenzenmeyer"
+  },
+  "bugs": {
+    "url": "https://github.com/pattern-lab/patternlab-node/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Geoff Pursell"
+    },
+    {
+      "name": "Raphael Okon"
+    },
+    {
+      "name": "tburny"
+    }
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "diveSync": "^0.3.0",
+    "fs-extra": "^0.30.0",
+    "glob": "^7.0.0",
+    "graphlib": "^2.1.1",
+    "js-beautify": "^1.6.3",
+    "js-yaml": "^3.6.1",
+    "lodash": "~4.13.1",
+    "markdown-it": "^6.0.1",
+    "node-fetch": "^1.6.0",
+    "patternengine-node-mustache": "^1.0.0",
+    "update-notifier": "^2.2.0"
+  },
+  "deprecated": false,
+  "description": "Pattern Lab is a collection of tools to help you create atomic design systems. This is the node command line interface (CLI).",
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "rewire": "^2.5.2",
+    "tap": "^7.1.2"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "homepage": "https://github.com/pattern-lab/patternlab-node#readme",
+  "keywords": [
+    "Pattern Lab",
+    "Atomic Web Design",
+    "Node",
+    "Grunt",
+    "Gulp",
+    "Javascript"
+  ],
+  "license": "MIT",
+  "main": "./core/lib/patternlab.js",
+  "name": "patternlab-node",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pattern-lab/patternlab-node.git"
+  },
+  "scripts": {
+    "lint": "eslint core/**/*.js",
+    "test": "eslint core/**/*.js && tap test/*_tests.js --reporter spec"
+  },
+  "version": "2.12.0"
+}
