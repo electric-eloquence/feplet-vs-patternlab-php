@@ -14,7 +14,7 @@ building a pattern library, processing large amounts of template data:
 * Whether to stay within the Node.js runtime environment, and use an obscure 
 application for this purpose.
 
-\- OR -
+\- or -
 
 * Whether to bring on an additional runtime environment, and all the overhead 
 that will encur, primarily because the better known application works in this 
@@ -59,13 +59,13 @@ project. We're only concerned with what could impart the mandate:
 * Pattern Lab: 1.0.0
 * Pattern Lab: 1.1.0
 * Pattern Lab: 2.0.0
-* Node.js: 8.9.4
+* Node.js: 8.9.1
 * PHP: 5.6.33
 * PHP: 7.2.2 
 
 Fepper-NPM and Feplet are dependencies of Fepper. They are parts of the whole.
 
-The three Pattern Lab versions are independent entities and will be tested 
+The three Pattern Lab versions are independent of each other and will be tested 
 separately as such.
 
 PHP will also be tested separately for versions 5.6.33 and 7.2.2, for each 
@@ -84,8 +84,8 @@ version of Pattern Lab.
 
 This Feplet/Fepper vs. Pattern Lab comparison really just tests their abilities 
 at compiling and rendering templates — lots of them. At heart, this is really 
-just a template engine benchmark test. Pattern Lab for PHP brilliantly extends 
-Mustache functionality, and is the sole source of inspiration for Feplet. 
+just a template engine benchmark test. (Pattern Lab for PHP brilliantly extends 
+Mustache functionality, and is the sole source of inspiration for Feplet.) 
 
 The templates to be compiled and rendered are in the `source` directory under 
 each respective application. These directories are identical. They each contain 
@@ -100,8 +100,8 @@ Averages of ten runs:
 
 #### Feplet/Fepper
 
-* Time: 2.149 sec
-* Memory: 36.301 MB
+* Time: 1.965 sec
+* Memory: 35.471 MB
 
 #### Pattern Lab 1.0.0 for PHP 5.6.33
 
@@ -137,21 +137,21 @@ Averages of ten runs:
 
 When compared against PHP 5.6.33, Node.js performs admirably. This is generally 
 true for synchronous brute calculation tests, and can be verified by the top 
-Internet search results in older benchmark tests. This is not the case against 
+Internet search results for older benchmark tests. This is not the case against 
 PHP 7.2.2, and PHP >= 7 in general. However, developers generally do not choose 
 Node.js for speed alone.
 
-But compiling and rendering templates is purely synchronous, and is effectively 
-brute calculations. There is indeed a strong case to bring on the PHP >= 7 
-runtime environment, so developers can use Pattern Lab, even if they need to 
-couple that with an already existing Node.js stack.
+But templating is purely synchronous, and is effectively brute calculation. 
+There is indeed a strong case to bring on the PHP >= 7 runtime environment, so 
+developers can use Pattern Lab, even if they need to couple that with an already 
+existing Node.js stack.
 
 But understand the overhead you'll take on if you go this route. Assuming you 
 access the Pattern Lab API through Node.js, this API is exposed via your OS's 
-shell. (Windows? Mac? Linux? Other Unix-like?) You will need to execute shell 
+shell. Windows? Mac? Linux? Other Unix-like? You will need to execute shell 
 commands in Node.js. Even if cross-platform shell execution is not a problem, it 
 is nowhere near as seamless and extensible as requiring a JS module from within 
-Node, and configuring your instances as you see fit.
+Node, and configuring, even extending, your instances as you see fit.
 
 There are also unexpected consequences of installing PHP in the first place. 
 These tests were conducted in Ubuntu. These commands were used for the install:
@@ -163,7 +163,7 @@ sudo apt-get install php5.6
 ```
 
 We did indeed get PHP 5.6.33 (and PHP 7.2.2 on another virtual machine), but we 
-also got Apache2. Not only that, Apache2 was running and listening on port 80.
+also got Apache2. Not only that, Apache2 was running and listening on port 80!
 
 ### Do It Yourself
 
