@@ -211,10 +211,10 @@ FULL CONTENT
 TEASER CONTENT
 ```
 
-This isn't an edge case nor should it be forbidden. Drupal, for example, will 
-include templates in this circular manner. A full Drupal node view can include 
-teasers of other nodes. Feplet and Pattern Lab for PHP also respect the 
-conditions which limit the recursion paths to take.
+This isn't an edge case, nor should it be forbidden. Drupal, for example, will 
+recurse through templates in this circular manner. A full Drupal node view can 
+include teasers of other nodes. Feplet and Pattern Lab for PHP also respect the 
+conditions that determine which recursion paths to take.
 
 Alternate template engines are available for use in Pattern Lab for Node, but 
 don't expect the first few tries with them to work as expected. Add to this that 
