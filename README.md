@@ -36,7 +36,8 @@ runtime environment on the file system. Those opting to stay in the Pattern Lab
 ecosystem (i.e. not opting for Fepper, or similar independent application) will 
 find that the PHP version provides the best Pattern Lab experience. A Node.js 
 version of Pattern Lab exists, but its functionality is too limited for power 
-usage. (More on that later, if you're interested.)
+usage. 
+(<a href="#pattern-lab-for-node">More on that later</a>, if you're interested.)
 
 Given that frontend developers and coding designers are certain to work in 
 JavaScript (and probably Node.js), it is reasonable to assume that they don't 
@@ -82,8 +83,8 @@ version of Pattern Lab.
 ### Tests
 
 This Feplet/Fepper vs. Pattern Lab comparison really just tests their abilities 
-at compiling and rendering templates — lots of them. At heart, this is really 
-just a template engine benchmark test. (Pattern Lab for PHP brilliantly extends 
+at compiling and rendering templates—lots of them. At heart, this is really just 
+a template engine benchmark test. (Pattern Lab for PHP brilliantly extends 
 Mustache functionality, and is the sole source of inspiration for Feplet.) 
 
 The templates to be compiled and rendered are in the `source` directory under 
@@ -172,7 +173,59 @@ php core/console --generate
 
 ### Footnotes
 
-Feplet and Fepper are independent of Pattern Lab, organizationally and socially. 
-Feplet and Fepper implement the inventions of others, and hopefully add enough 
-original functionality to be considered something more than just copies of the 
-originals.
+#### Pattern Lab for Node
+
+A version of Pattern Lab exists for Node.js, but it isn't up to the task for 
+these tests. Trying to build the following patterns will result in an infinite 
+loop:
+
+##### source/\_patterns/04-pages/page.mustache:
+
+```handlebars
+{{> 03-templates/node("full?": true) }}
+```
+
+##### source/\_patterns/03-templates/node.mustache:
+
+```handlebars
+{{# full? }}
+  {{> 02-organisms/full }}
+{{/ full? }}
+
+{{# teaser? }}
+  {{> 02-organisms/teaser }}
+{{/ teaser? }}
+```
+
+##### source/\_patterns/02-organisms/full.mustache:
+
+```handlebars
+FULL CONTENT
+
+{{> 03-templates/node("teaser?": true) }}
+```
+
+##### source/\_patterns/02-organisms/teaser.mustache:
+
+```handlebars
+TEASER CONTENT
+```
+
+This isn't an edge case nor should it be forbidden. Drupal, for example, will 
+include templates in this circular manner. A full Drupal node view can include 
+teasers of other nodes. Feplet and Pattern Lab for PHP also respect the 
+conditions which limit the recursion paths to take.
+
+Alternate template engines are available for use in Pattern Lab for Node, but 
+don't expect the first few tries with them to work as expected. Add to this that 
+there is little to no documentation for such usage.
+
+Inefficient use of tools like Pattern Lab will invariably lead to questions 
+like, "What is the payoff for all this increased upfront cost?" No, "Atomic 
+Design" and "Prototyping" are not payoffs—one is a methodology, and the other is 
+increased upfront cost!
+
+#### Thanks for Visiting!
+
+All tools used in this test (with the exception of Apple and Intel products) are 
+Open Source.
