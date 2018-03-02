@@ -3,7 +3,7 @@
 On a high level, this is a Node.js vs. PHP comparison. However, this sort of 
 comparison never compares apples to apples. Going a bit lower, we can compare 
 two applications that, when receiving identical inputs, will return nearly 
-identical outputs. We can then concern ourselves with only the most basic of 
+identical outputs. We can then concern ourselves with the most basic of 
 benchmarks: processing speed and memory consumption. But since we don't know 
 how these applications work under the hood, we again, cannot do an even 
 comparison of Node.js and PHP.
