@@ -168,8 +168,7 @@ cd ../patternlab-php-2.0.0
 php core/console --generate
 
 # To output the memory used by Fepper, set "debug": true in patternlab-config.json.
-# Do not leave "debug": true while running speed tests, as this will slow things
-# down considerably.
+# Do not leave "debug": true while running speed tests, as this will slow things down considerably.
 ```
 
 ### Footnotes
@@ -212,18 +211,18 @@ FULL CONTENT
 TEASER CONTENT
 ```
 
-This isn't an edge case, nor should it be forbidden. Drupal, for example, will 
-recurse through templates in this circular manner. A full Drupal node view can 
+This isn't an edge case, nor should it be forbidden. Drupal, for example, 
+recurses through templates in this circular manner. A full Drupal node view can 
 include teasers of other nodes. Feplet and Pattern Lab for PHP also respect the 
 conditions that determine which recursion paths to take.
 
 Alternate template engines are available for use in Pattern Lab for Node, but 
-don't expect the first few tries with them to work as expected. Add to this that 
+don't expect the first few tries with them to work as intended. Add to this that 
 there is little to no documentation for such usage.
 
-Inefficient use of tools like Pattern Lab will invariably lead to questions 
-like, "What is the payoff for all this increased upfront cost?" No, "Atomic 
-Design" and "Prototyping" are not payoffs—one is a methodology, and the other is 
+Ineffective use of tools like Pattern Lab invariably leads to questions like, 
+"What is the payoff for all this increased upfront cost?" No, "Atomic Design" 
+and "Prototyping" are not payoffs—one is a methodology, and the other is 
 increased upfront cost!
 
 #### Thanks for Visiting!
