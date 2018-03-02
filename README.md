@@ -216,9 +216,9 @@ recurses through templates in this circular manner. A full Drupal node view can
 include teasers of other nodes. Feplet and Pattern Lab for PHP also respect the 
 conditions that determine which recursion paths to take and not take.
 
-Alternate template engines are available for use in Pattern Lab for Node, but 
-don't expect the first few tries with them to work as intended. Add to this that 
-there is little to no documentation for such usage.
+Alternate template engines can be plugged into Pattern Lab for Node, but don't 
+expect the first few tries with them to work as intended. Furthermore, there is 
+little to no documentation for such usage.
 
 Ineffective use of tools like Pattern Lab invariably leads to questions like, 
 "What is the payoff for all this increased upfront cost?" No, "Atomic Design" 
