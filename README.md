@@ -214,7 +214,7 @@ TEASER CONTENT
 This isn't an edge case, nor should it be forbidden. Drupal, for example, 
 recurses through templates in this circular manner. A full Drupal node view can 
 include teasers of other nodes. Feplet and Pattern Lab for PHP also respect the 
-conditions that determine which recursion paths to take.
+conditions that determine which recursion paths to take and not take.
 
 Alternate template engines are available for use in Pattern Lab for Node, but 
 don't expect the first few tries with them to work as intended. Add to this that 
