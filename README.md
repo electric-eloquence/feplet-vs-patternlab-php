@@ -134,7 +134,7 @@ Node.js for speed alone.
 But templating is purely synchronous, and is effectively brute calculation. 
 There is indeed a strong case to bring on the PHP >= 7 runtime environment, so 
 developers can use Pattern Lab, even if they need to couple that with an already 
-existing Node.js stack.
+existing Node.js environment.
 
 But understand the overhead you'll take on if you go this route. Assuming you 
 access the Pattern Lab API through Node.js, this API is exposed via your OS's 
