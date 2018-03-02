@@ -139,9 +139,10 @@ existing Node.js environment.
 But understand the overhead you'll take on if you go this route. Assuming you 
 access the Pattern Lab API through Node.js, this API is exposed via your OS's 
 shell. Windows? Mac? Linux? Other Unix-like? You will need to execute shell 
-commands in Node.js. Even if cross-platform shell execution is not a problem, it 
-is nowhere near as seamless and extensible as requiring a JS module from within 
-Node, and configuring, even extending, your instances as you see fit.
+commands in Node.js. Even if cross-platform and cross-language shell execution 
+is not a problem, it is nowhere near as seamless and extensible as requiring a 
+JS module from within Node, and configuring, even extending, your instances as 
+you see fit.
 
 There are also unexpected consequences of installing PHP in the first place. 
 These tests were conducted in Ubuntu. These commands were used for the install:
