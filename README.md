@@ -225,6 +225,8 @@ Ineffective use of tools like Pattern Lab invariably leads to questions like,
 and "Prototyping" are not payoffs—one is a methodology, and the other is 
 increased upfront cost!
 
+#### Also: <a href="https://github.com/electric-eloquence/template-engine-benchoff" target="_blank">Feplet vs. Handlebars</a>
+
 #### Thanks for Visiting!
 
 All tools used in this test (with the exception of Apple and Intel products) are 
