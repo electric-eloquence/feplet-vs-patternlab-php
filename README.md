@@ -25,11 +25,16 @@ environment.
 <a href="https://github.com/electric-eloquence/feplet" target="_blank">Feplet</a> 
 is the Node.js template engine which powers 
 <a href="http://fepper.io" target="_blank">Fepper</a>, which implements the 
-Pattern Lab UI. The Pattern Lab UI cannot receive enough acolades and 
-superlatives for its utility at the tasks of organizing reusable markup 
-patterns, and making them accessible to developers and designers. When we refer 
-to the UI, we mean the client-side JavaScript, styles, and markup. The UI is 
-independent of these tests.
+Pattern Lab UI. The Pattern Lab UI cannot receive enough superlatives for its 
+utility at the tasks of organizing reusable markup patterns, and making them 
+accessible to developers and designers. (We are nonetheless always looking for 
+better tools, so if you know of any, 
+<a href="https://github.com/electric-eloquence/feplet-vs-patternlab-php/issues" target="_blank">
+please comment as to what they may be</a>.)
+
+
+When we refer to the UI, we mean the client-side JavaScript, styles, and markup. 
+The UI is independent of these tests.
 
 To compile and render the markup which will be displayed by the UI, we need a 
 runtime environment on the file system. Those opting to stay in the Pattern Lab 
@@ -42,7 +47,7 @@ usage.
 Given that frontend developers and coding designers are certain to work in 
 JavaScript (and probably Node.js), it is reasonable to assume that they don't 
 automatically want to bring on another runtime environment. They'd generally 
-need a mandate or a drive of curiosity to expand beyond Node.js for a given 
+need a drive of curiosity or a mandate to expand beyond Node.js for a given 
 project. We're only concerned with what could impart the mandate:
 
 * The Node.js application isn't up to the task.
@@ -84,8 +89,8 @@ version of Pattern Lab.
 
 This Feplet/Fepper vs. Pattern Lab comparison really just tests their abilities 
 at compiling and rendering templates—lots of them. At heart, this is really just 
-a template engine benchmark test. (Pattern Lab for PHP brilliantly extends 
-Mustache functionality, and is the sole source of inspiration for Feplet.) 
+a template engine benchmark test. (Pattern Lab PHP's extension of basic Mustache 
+templating is the sole source of inspiration for Feplet.) 
 
 The templates to be compiled and rendered are in the `source` directory under 
 each respective application. These directories are identical. They each contain 
@@ -173,7 +178,7 @@ php core/console --generate
 
 ### Footnotes
 
-#### Pattern Lab for Node
+#### Pattern Lab Node
 
 A version of Pattern Lab exists for Node.js, but it isn't up to the task for 
 these tests. Trying to build the following patterns will result in an infinite 
@@ -213,10 +218,10 @@ TEASER CONTENT
 
 This isn't an edge case, nor should it be forbidden. Drupal, for example, 
 recurses through templates in this circular manner. A full Drupal node view can 
-include teasers of other nodes. Feplet and Pattern Lab for PHP also respect the 
+include teasers of other nodes. Feplet and Pattern Lab PHP also respect the 
 conditions that determine which recursion paths to take and not take.
 
-Alternate template engines can be plugged into Pattern Lab for Node, but don't 
+Alternate template engines can be plugged into Pattern Lab Node, but don't 
 expect the first few tries with them to work as intended. Furthermore, there is 
 little to no documentation for such usage.
 
