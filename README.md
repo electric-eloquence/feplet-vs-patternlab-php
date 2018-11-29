@@ -17,7 +17,7 @@ application for this purpose.
 \- or -
 
 * Whether to bring on an additional runtime environment, and all the overhead 
-that will encur, primarily because the better known application works in this 
+that will incur, primarily because the better known application works in this 
 environment.
 
 ### Background
