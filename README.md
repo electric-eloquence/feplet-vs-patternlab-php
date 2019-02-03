@@ -152,7 +152,7 @@ you see fit.
 There are also unexpected consequences of installing PHP in the first place. 
 These tests were conducted in Ubuntu. These commands were used for the install:
 
-```bash
+```shell
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
 sudo apt-get install php5.6
@@ -163,7 +163,7 @@ also got Apache2. Not only that, Apache2 was running and listening on port 80!
 
 ### Do It Yourself
 
-```bash
+```shell
 cd fepper
 npm install # Only need to do this once.
 node node_modules/fepper/index.js ui:build
