@@ -187,19 +187,19 @@ loop:
 ##### source/\_patterns/04-pages/page.mustache:
 
 ```handlebars
-{{> 03-templates/node("full?": true) }}
+{{> 03-templates/node(full: true) }}
 ```
 
 ##### source/\_patterns/03-templates/node.mustache:
 
 ```handlebars
-{{# full? }}
+{{# full }}
   {{> 02-organisms/full }}
-{{/ full? }}
+{{/ full }}
 
-{{# teaser? }}
+{{# teaser }}
   {{> 02-organisms/teaser }}
-{{/ teaser? }}
+{{/ teaser }}
 ```
 
 ##### source/\_patterns/02-organisms/full.mustache:
@@ -207,7 +207,7 @@ loop:
 ```handlebars
 FULL CONTENT
 
-{{> 03-templates/node("teaser?": true) }}
+{{> 03-templates/node(teaser: true) }}
 ```
 
 ##### source/\_patterns/02-organisms/teaser.mustache:
