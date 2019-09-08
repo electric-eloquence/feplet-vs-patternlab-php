@@ -24,7 +24,7 @@ environment.
 
 <a href="https://github.com/electric-eloquence/feplet" target="_blank">Feplet</a> 
 is the Node.js template engine which powers 
-<a href="http://fepper.io" target="_blank">Fepper</a>, which implements the 
+<a href="https://fepper.io" target="_blank">Fepper</a>, which implements the 
 Pattern Lab UI. The Pattern Lab UI cannot receive enough superlatives for its 
 utility at the tasks of organizing reusable markup patterns, and making them 
 accessible to developers and designers. (We are nonetheless always looking for 
