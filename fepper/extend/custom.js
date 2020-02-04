@@ -1,10 +1,9 @@
 /**
- * Put tasks defined in ~extend.js appended files within the more general tasks
- * listed below.
+ * Put tasks defined in ~extend.js appended files within the more general tasks listed below.
  */
 'use strict';
 
-var gulp = require('gulp');
+const gulp = global.gulp;
 
 gulp.task('custom:data', [
 ]);

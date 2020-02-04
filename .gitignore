@@ -1,5 +1,10 @@
+*.log
+*.tmp*
+*~
 .*.swp
 .DS_Store
-config.ini
+composer.lock
 node_modules/
+package-lock.json
 public/
+vendor/

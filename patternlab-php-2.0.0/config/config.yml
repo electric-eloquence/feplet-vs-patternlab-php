@@ -8,13 +8,13 @@ id:
     - scss
     - .svn
     - .sass-cache
-cleanPublic: 'true'
+cleanPublic: 'false'
 patternStates:
     - inprogress
     - inreview
     - complete
 styleGuideExcludes: ''
-cacheBusterOn: 'true'
+cacheBusterOn: 'false'
 exportDir: export
 publicDir: public
 sourceDir: source

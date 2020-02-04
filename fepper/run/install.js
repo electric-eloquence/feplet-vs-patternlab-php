@@ -1,17 +1,22 @@
-/* eslint-disable no-console */
 'use strict';
 
 const spawnSync = require('child_process').spawnSync;
 const fs = require('fs-extra');
 const path = require('path');
-const yaml = require('js-yaml');
 
+const binPath = path.resolve('node_modules', '.bin');
 const fepperNpmPath = path.resolve('node_modules', 'fepper');
 const excludesDir = path.resolve(fepperNpmPath, 'excludes');
-const indexJs = path.resolve(fepperNpmPath, 'index.js');
-
+const taskerPath = path.resolve('node_modules', 'fepper', 'tasker.js');
 const confFile = 'conf.yml';
 const confFileSrc = path.resolve(excludesDir, confFile);
+
+let binGulp = path.resolve(binPath, 'gulp');
+
+// Spawn gulp.cmd if Windows and not BASH.
+if (process.env.ComSpec && process.env.ComSpec.toLowerCase() === 'c:\\windows\\system32\\cmd.exe') {
+  binGulp = path.resolve(binPath, 'gulp.cmd');
+}
 
 if (!fs.existsSync(confFile)) {
   fs.copySync(confFileSrc, confFile);
@@ -31,45 +36,27 @@ if (!fs.existsSync(prefFile)) {
   fs.copySync(prefFileSrc, prefFile);
 }
 
-let conf = {};
+const argv = ['--gulpfile', taskerPath];
+const spawnedObj = spawnSync(binGulp, argv.concat(['install']), {stdio: 'inherit'});
 
-// Need to read conf.yml to get the "headed" conf.
-try {
-  let yml = fs.readFileSync(confFile, 'utf8');
-  conf = yaml.safeLoad(yml);
-}
-catch (err) {
-  console.error(err);
-}
-
-const argv = [indexJs, 'install'];
-
-// The "headed" conf is for internal Fepper development only. Necessary when requiring fepper-npm with `npm link`.
-if (conf.headed) {
-  argv.push('headed');
-  argv.push(process.cwd());
-}
-
-const spawnedObj = spawnSync('node', argv, {stdio: 'inherit'});
+// Output to install.log.
+const installLog = 'install.log';
 
 if (spawnedObj.stderr) {
-  fs.appendFileSync('install.log', `${spawnedObj.stderr}\n`);
+  fs.appendFileSync(installLog, `${spawnedObj.stderr}\n`);
 }
 
-fs.writeFileSync('install.log', `Process exited with status ${spawnedObj.status}.\n`);
+fs.appendFileSync(installLog, `Process exited with status ${spawnedObj.status}.\n`);
 
-// Only run ui:compileui if source dir is populated. (A base install will have it be empty at this point.)
+// Only run ui:compile if source dir is populated. (A base install will have it be empty at this point.)
 const confUiStr = fs.readFileSync(confUiFile, 'utf8');
+const conf = {ui: JSON.parse(confUiStr)}; // Will throw on error.
+let sourceDirContent = [];
 
-try {
-  conf.ui = JSON.parse(confUiStr);
+if (conf.ui && conf.ui.paths && conf.ui.paths.source && conf.ui.paths.source.root) {
+  sourceDirContent = fs.readdirSync(conf.ui.paths.source.root);
 }
-catch (err) {
-  throw err;
-}
-
-const sourceDirContent = fs.readdirSync(conf.ui.paths.source.root);
 
 if (sourceDirContent.length) {
-  spawnSync('node', [indexJs, 'ui:compileui'], {stdio: 'inherit'});
+  spawnSync(binGulp, argv.concat(['ui:compile']), {stdio: 'inherit'});
 }

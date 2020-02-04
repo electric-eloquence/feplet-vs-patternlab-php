@@ -1,4 +1,11 @@
 {
+  "00-page~~element?": [{"content": "lorem"}],
+  "01-page~~element?": [{"content": "ipsum"}],
+  "02-page~~element?": [{"content": "dolor"}],
+  "03-page~~element?": [{"content": "sit"}],
+  "04-page~~element?": [{"content": "amet"}],
+  "05-page~~element?": [{"content": "consectetur"}],
+  "06-page~~element?": [{"content": "adipisicing"}],
   "backend_serve_dir": "docroot/sites",
   "bg_img_blurred": "../../images/nosync/perfect_1_690x345-blur.jpg",
   "bg_img_srcs": "{\"0\":\"../../images/nosync/perfect_1_690x345.jpg\"}",

@@ -6,7 +6,7 @@
  */
 'use strict';
 
-var gulp = require('gulp');
+const gulp = global.gulp;
 
 gulp.task('contrib:data:postprocess', [
 ]);
