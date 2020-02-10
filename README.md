@@ -68,7 +68,7 @@ project. We're only concerned with what could impart the mandate:
 * <a href="https://github.com/electric-eloquence/fepper" target="_blank">Fepper (main project)</a>:
   0.13.1
 * <a href="https://github.com/electric-eloquence/fepper-npm" target="_blank">Fepper-NPM</a>:
-  0.34.1
+  0.34.2
 * <a href="https://github.com/electric-eloquence/feplet" target="_blank">Feplet</a>:
   1.2.0
 * Pattern Lab: 2.0.0
