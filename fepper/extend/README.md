@@ -1,11 +1,5 @@
 # Extensions
 
-Fepper comes preconfigured with the 
-<a href="https://www.npmjs.com/package/fp-stylus" target="_blank">fp-stylus</a> 
-CSS preprocessing extension. You are by no means required to keep it. You may 
-remove it with `npm rm --save-dev fp-stylus`. Then, delete the `extend/stylus` tasks 
-from `extend/contrib.js`.
-
 ### Contributed extensions
 
 * Install and update contributed extensions with npm.

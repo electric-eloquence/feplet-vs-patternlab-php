@@ -1,8 +1,5 @@
 {
   "description": "Fepper extensions",
   "repository": {},
-  "license": "MIT",
-  "devDependencies": {
-    "fp-stylus": "^1.2.10"
-  }
+  "license": "MIT"
 }
