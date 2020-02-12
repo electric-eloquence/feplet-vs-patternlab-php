@@ -34,7 +34,7 @@
       "static": "public/static"
     }
   },
-  "cacheBust": true,
+  "cacheBust": false,
   "cleanPublic": false,
   "debug": false,
   "defaultPattern": "pages-homepage",
