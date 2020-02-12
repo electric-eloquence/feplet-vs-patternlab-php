@@ -6,12 +6,12 @@ This repository is primarily being maintained for the purpose of providing a
 test bed on which to benchmark future versions of Feplet and Fepper. Two of 
 Pattern Lab PHP's main dependencies 
 <a href="#pattern-lab-php-latest-commits">haven't seen development since early 2018</a>. 
-The rest haven't since 2016. In fact, Pattern Lab won't even run in PHP 7.4. 
-On the other hand, Fepper's continued purpose is to be aligned with the latest 
+The rest haven't since 2016. In fact, Pattern Lab won't even run in PHP 7.4. On 
+the other hand, Fepper's continued purpose is to be aligned with the latest 
 developments in frontend technology. In other words, this shouldn't be seen as 
-just a stark comparison between two "Atomic Design" applications. The comparison 
-is likely irrelevant in this day and age. Nonetheless, the old text of this 
-readme will be retained with occasional updates incorporating new information.
+just a stark comparison between two "Atomic Design" systems. The comparison is 
+likely irrelevant in this day and age. Nonetheless, the old text of this readme 
+will be retained with occasional updates incorporating new information.
 
 ### Abstract
 
