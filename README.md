@@ -66,9 +66,9 @@ project. We're only concerned with what could impart the mandate:
 ### Versions
 
 * <a href="https://github.com/electric-eloquence/fepper" target="_blank">Fepper (main project)</a>:
-  0.13.1
+  0.13.2
 * <a href="https://github.com/electric-eloquence/fepper-npm" target="_blank">Fepper-NPM</a>:
-  0.34.2
+  0.34.5
 * <a href="https://github.com/electric-eloquence/feplet" target="_blank">Feplet</a>:
   1.2.0
 * Pattern Lab: 2.0.0
@@ -104,8 +104,8 @@ Averages of ten runs:
 
 #### Feplet/Fepper
 
-* Time: 5.4443 sec
-* Memory: 92.403 MB
+* Time: 5.4513 sec
+* Memory: 89.067 MB
 
 #### Pattern Lab PHP
 
