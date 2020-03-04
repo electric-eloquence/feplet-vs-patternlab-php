@@ -125,7 +125,7 @@ particularly not for speed at synchronous brute calculation. But templating _is_
 purely synchronous, and is effectively brute calculation. Fortunately for those 
 wishing to stay in Node.js, Fepper is reliably faster than Pattern Lab PHP.
 
-However, there is a strong case to Pattern Lab having name recognition. That 
+However, there is a strong case to Pattern Lab having name recognition. This 
 adds to PHP's already strong case based on its synchronous performance, not to 
 mention its ubiquity.
 
@@ -135,7 +135,7 @@ Other Unix-like? Then, you will most likely execute those shell commands in a
 Node.js task runner via gulp, npm scripts, etc. Even if cross-platform and 
 cross-language shell execution is not a problem, it is nowhere near as seamless 
 and extensible as requiring a JS module from within Node, and configuring, even 
-extending your instances as you see fit.
+extending, your instances as you see fit.
 
 There are also unexpected consequences of installing PHP in the first place. 
 These tests were conducted in Ubuntu. These commands were used for the install:
