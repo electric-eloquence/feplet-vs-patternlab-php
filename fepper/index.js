@@ -2,7 +2,7 @@
 
 const Fepper = require('fepper');
 
-const begin = Date.now()
+const begin = Date.now();
 const fepper = new Fepper(__dirname);
 
 fepper.ui.build();
